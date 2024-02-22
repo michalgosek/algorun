@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0b273fd8-f972-4500-aaf4-3f499640bf68" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/michalgosek/algorithms/binarysearch/problems/Newspapers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/algorithms/binaryserach/problems/NewspapersTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
@@ -51,7 +53,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.All in AlgoRun">
+  <component name="RunManager" selected="JUnit.NewspapersTest.shouldReturnLongestReadTimeAccordingToTestDataExpectations">
     <configuration name="All in AlgoRun" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AlgoRun" />
       <option name="PACKAGE_NAME" value="" />
@@ -91,6 +93,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="NewspapersTest.shouldReturnLongestReadTimeAccordingToTestDataExpectations" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AlgoRun" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algorithms.binaryserach.problems.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="algorithms.binaryserach.problems" />
+      <option name="MAIN_CLASS_NAME" value="algorithms.binaryserach.problems.NewspapersTest" />
+      <option name="METHOD_NAME" value="shouldReturnLongestReadTimeAccordingToTestDataExpectations(java.util.List,int,int)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="algorithms.sorting in AlgoRun" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AlgoRun" />
       <extension name="coverage">
@@ -107,6 +125,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.NewspapersTest.shouldReturnLongestReadTimeAccordingToTestDataExpectations" />
         <item itemvalue="JUnit.All in AlgoRun" />
         <item itemvalue="JUnit.algorithms.sorting in AlgoRun" />
         <item itemvalue="JUnit.BubbleSortTest.shouldSortNumbersInAscendingOrder" />
@@ -122,7 +141,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1708590363274</updated>
-      <workItem from="1708590364330" duration="3710000" />
+      <workItem from="1708590364330" duration="6256000" />
     </task>
     <servers />
   </component>
