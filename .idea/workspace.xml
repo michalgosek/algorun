@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0b273fd8-f972-4500-aaf4-3f499640bf68" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/michalgosek/algorithms/binarysearch/problems/Newspapers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/algorithms/binaryserach/problems/NewspapersTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/michalgosek/algorithms/binarysearch/LeftmostBinarySearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/michalgosek/problems/SearchInsertPosition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/algorithms/binaryserach/LeftmostBinarySearchTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/problems/SearchInsertPositionTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +54,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.NewspapersTest.shouldReturnLongestReadTimeAccordingToTestDataExpectations">
+  <component name="RunManager" selected="JUnit.SearchInsertPositionTest.shouldReturnIndexAccordingToTestData">
     <configuration name="All in AlgoRun" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AlgoRun" />
       <option name="PACKAGE_NAME" value="" />
@@ -62,32 +63,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BubbleSortTest.shouldSortNumbersInAscendingOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LeftmostBinarySearchTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AlgoRun" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithms.sorting.*" />
+          <option name="PATTERN" value="algorithms.binaryserach.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="algorithms.sorting" />
-      <option name="MAIN_CLASS_NAME" value="algorithms.sorting.BubbleSortTest" />
-      <option name="METHOD_NAME" value="shouldSortNumbersInAscendingOrder(java.util.List,java.util.List)" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FindBoundaryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="AlgoRun" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="algorithms.binaryserach.problems.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="algorithms.binaryserach.problems" />
-      <option name="MAIN_CLASS_NAME" value="algorithms.binaryserach.problems.FindBoundaryTest" />
+      <option name="PACKAGE_NAME" value="algorithms.binaryserach" />
+      <option name="MAIN_CLASS_NAME" value="algorithms.binaryserach.LeftmostBinarySearchTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -109,6 +94,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SearchInsertPositionTest.shouldReturnIndexAccordingToTestData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AlgoRun" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="problems.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="problems" />
+      <option name="MAIN_CLASS_NAME" value="problems.SearchInsertPositionTest" />
+      <option name="METHOD_NAME" value="shouldReturnIndexAccordingToTestData(int[],int,int)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="algorithms.sorting in AlgoRun" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AlgoRun" />
       <extension name="coverage">
@@ -125,11 +126,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SearchInsertPositionTest.shouldReturnIndexAccordingToTestData" />
+        <item itemvalue="JUnit.LeftmostBinarySearchTest" />
         <item itemvalue="JUnit.NewspapersTest.shouldReturnLongestReadTimeAccordingToTestDataExpectations" />
         <item itemvalue="JUnit.All in AlgoRun" />
         <item itemvalue="JUnit.algorithms.sorting in AlgoRun" />
-        <item itemvalue="JUnit.BubbleSortTest.shouldSortNumbersInAscendingOrder" />
-        <item itemvalue="JUnit.FindBoundaryTest" />
       </list>
     </recent_temporary>
   </component>
@@ -141,7 +142,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1708590363274</updated>
-      <workItem from="1708590364330" duration="6256000" />
+      <workItem from="1708590364330" duration="7064000" />
     </task>
     <servers />
   </component>
