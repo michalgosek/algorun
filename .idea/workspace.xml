@@ -5,41 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0b273fd8-f972-4500-aaf4-3f499640bf68" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/michalgosek/algorithms/binarysearch/BinarySearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/michalgosek/algorithms/binarysearch/problems/FindBoundary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/michalgosek/algorithms/binarysearch/problems/FindFirstOccurrence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/michalgosek/algorithms/binarysearch/problems/FindMaximumInRotatedSortedArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/michalgosek/algorithms/binarysearch/problems/FindMinimumInRotatedSortedArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/michalgosek/algorithms/binarysearch/problems/FirstNotSmaller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/michalgosek/algorithms/binarysearch/problems/PeakOfMountainArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/michalgosek/algorithms/binarysearch/problems/SquareRoot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/michalgosek/algorithms/sorting/BubbleSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/michalgosek/algorithms/sorting/InsertionSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/michalgosek/algorithms/sorting/MergeSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/michalgosek/algorithms/sorting/QuickSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/michalgosek/algorithms/sorting/SelectionSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/michalgosek/problems/FindTargetIndicesAfterSortingArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/michalgosek/problems/MissingNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/algorithms/binaryserach/BinarySearchTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/algorithms/binaryserach/problems/FindBoundaryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/algorithms/binaryserach/problems/FindFirstOccurrenceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/algorithms/binaryserach/problems/FindMaximumInRotatedSortedArrayTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/algorithms/binaryserach/problems/FindMinimumInRotatedSortedArrayTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/algorithms/binaryserach/problems/FirstNotSmallerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/algorithms/binaryserach/problems/PeakOfMountainArrayTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/algorithms/sorting/BubbleSortTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/algorithms/sorting/InsertionSortTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/algorithms/sorting/MergeSortTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/algorithms/sorting/QuickSortTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/algorithms/sorting/SelectionSortTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/algorithms/sorting/SortingTestDataSource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/problems/FindTargetIndicesAfterSortingArrayTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/maven.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/maven.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,11 +41,12 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "/Users/michalgosek/Desktop/Algorithms & Data Structures/algorun/src/main/java/org/example/Main.java",
     "vue.rearranger.settings.migration": "true"
   }
@@ -154,7 +122,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1708590363274</updated>
-      <workItem from="1708590364330" duration="1804000" />
+      <workItem from="1708590364330" duration="2536000" />
     </task>
     <servers />
   </component>
