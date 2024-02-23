@@ -1,9 +1,10 @@
 package com.michalgosek.problems;
 
 /*
-Link: https://leetcode.com/problems/search-insert-position/description/?envType=study-plan-v2&envId=top-interview-150
-
 35. Search Insert Position
+
+Link: https://leetcode.com/problems/search-insert-position/description/
+
 Given a sorted array of distinct integers and a target value, return the index if the target is found.
 If not, return the index where it would be if it were inserted in order.
 You must write an algorithm with O(log n) runtime complexity.
@@ -29,6 +30,11 @@ nums contains distinct values sorted in ascending order.
 
  */
 public class SearchInsertPosition {
+
+    /**
+     * Time complexity: O(logn)
+     * Space complexity: O(1)
+     */
     public static int searchInsert(int[] nums, int target) {
         var left = 0;
         var right = nums.length;

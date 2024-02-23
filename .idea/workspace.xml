@@ -5,11 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0b273fd8-f972-4500-aaf4-3f499640bf68" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/michalgosek/algorithms/binarysearch/LeftmostBinarySearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/michalgosek/problems/SearchInsertPosition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/algorithms/binaryserach/LeftmostBinarySearchTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/problems/SearchInsertPositionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/michalgosek/problems/CountPairsWhoseSumIsLessThanTarget.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/problems/CountPairsWhoseSumIsLessThanTargetTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/michalgosek/problems/FindTargetIndicesAfterSortingArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/michalgosek/problems/FindTargetIndicesAfterSortingArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/michalgosek/problems/MissingNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/michalgosek/problems/MissingNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/michalgosek/problems/SearchInsertPosition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/michalgosek/problems/SearchInsertPosition.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,36 +30,60 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2ciNItbKOlEbyXoKOrlzlMW3bnr" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "/Users/michalgosek/Desktop/Algorithms & Data Structures/algorun/src/main/java/org/example/Main.java",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/michalgosek/Desktop/Algorithms &amp; Data Structures/algorun/src/main/java/org/example/Main.java&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="JUnit.SearchInsertPositionTest.shouldReturnIndexAccordingToTestData">
-    <configuration name="All in AlgoRun" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+}</component>
+  <component name="RunManager" selected="JUnit.java in AlgoRun">
+    <configuration name="CountPairsWhoseSumIsLessThanTargetTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AlgoRun" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="problems.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="problems" />
+      <option name="MAIN_CLASS_NAME" value="problems.CountPairsWhoseSumIsLessThanTargetTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CountPairsWhoseSumIsLessThanTargetTest.shouldReturnPairsNumberAccordingToTestData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AlgoRun" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="problems.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="problems" />
+      <option name="MAIN_CLASS_NAME" value="problems.CountPairsWhoseSumIsLessThanTargetTest" />
+      <option name="METHOD_NAME" value="shouldReturnPairsNumberAccordingToTestData(java.util.List,int,int)" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -74,22 +99,6 @@
       <option name="PACKAGE_NAME" value="algorithms.binaryserach" />
       <option name="MAIN_CLASS_NAME" value="algorithms.binaryserach.LeftmostBinarySearchTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NewspapersTest.shouldReturnLongestReadTimeAccordingToTestDataExpectations" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="AlgoRun" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="algorithms.binaryserach.problems.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="algorithms.binaryserach.problems" />
-      <option name="MAIN_CLASS_NAME" value="algorithms.binaryserach.problems.NewspapersTest" />
-      <option name="METHOD_NAME" value="shouldReturnLongestReadTimeAccordingToTestDataExpectations(java.util.List,int,int)" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -110,27 +119,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="algorithms.sorting in AlgoRun" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="java in AlgoRun" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AlgoRun" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="algorithms.sorting.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="algorithms.sorting" />
-      <option name="TEST_OBJECT" value="package" />
+      <option name="TEST_OBJECT" value="directory" />
+      <dir value="$PROJECT_DIR$/src/test/java" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.java in AlgoRun" />
+        <item itemvalue="JUnit.CountPairsWhoseSumIsLessThanTargetTest.shouldReturnPairsNumberAccordingToTestData" />
+        <item itemvalue="JUnit.CountPairsWhoseSumIsLessThanTargetTest" />
         <item itemvalue="JUnit.SearchInsertPositionTest.shouldReturnIndexAccordingToTestData" />
         <item itemvalue="JUnit.LeftmostBinarySearchTest" />
-        <item itemvalue="JUnit.NewspapersTest.shouldReturnLongestReadTimeAccordingToTestDataExpectations" />
-        <item itemvalue="JUnit.All in AlgoRun" />
-        <item itemvalue="JUnit.algorithms.sorting in AlgoRun" />
       </list>
     </recent_temporary>
   </component>
@@ -142,7 +145,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1708590363274</updated>
-      <workItem from="1708590364330" duration="7064000" />
+      <workItem from="1708590364330" duration="7490000" />
+      <workItem from="1708676702661" duration="2509000" />
     </task>
     <servers />
   </component>
