@@ -5,12 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0b273fd8-f972-4500-aaf4-3f499640bf68" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/michalgosek/problems/CountPairsWhoseSumIsLessThanTarget.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/problems/CountPairsWhoseSumIsLessThanTargetTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/michalgosek/algorithms/twopointers/slidingwindow/FixedSizeSlidingWindow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/michalgosek/problems/LengthOfLongestSubstring.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/algorithms/twopointers/slidingwindow/FixedSizeSlidingWindowTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/problems/LengthOfLongestSubstringTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/michalgosek/problems/FindTargetIndicesAfterSortingArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/michalgosek/problems/FindTargetIndicesAfterSortingArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/michalgosek/problems/MissingNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/michalgosek/problems/MissingNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/michalgosek/problems/SearchInsertPosition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/michalgosek/problems/SearchInsertPosition.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,54 +55,24 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.java in AlgoRun">
-    <configuration name="CountPairsWhoseSumIsLessThanTargetTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.LengthOfLongestSubstringTest">
+    <configuration name="FixedSizeSlidingWindowTest.shouldReturnIndexAccordingToTestData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AlgoRun" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="problems.*" />
+          <option name="PATTERN" value="algorithms.twopointers.slidingwindow.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="problems" />
-      <option name="MAIN_CLASS_NAME" value="problems.CountPairsWhoseSumIsLessThanTargetTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CountPairsWhoseSumIsLessThanTargetTest.shouldReturnPairsNumberAccordingToTestData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="AlgoRun" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="problems.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="problems" />
-      <option name="MAIN_CLASS_NAME" value="problems.CountPairsWhoseSumIsLessThanTargetTest" />
-      <option name="METHOD_NAME" value="shouldReturnPairsNumberAccordingToTestData(java.util.List,int,int)" />
+      <option name="PACKAGE_NAME" value="algorithms.twopointers.slidingwindow" />
+      <option name="MAIN_CLASS_NAME" value="algorithms.twopointers.slidingwindow.FixedSizeSlidingWindowTest" />
+      <option name="METHOD_NAME" value="shouldReturnIndexAccordingToTestData(java.util.List,int,int)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LeftmostBinarySearchTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="AlgoRun" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="algorithms.binaryserach.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="algorithms.binaryserach" />
-      <option name="MAIN_CLASS_NAME" value="algorithms.binaryserach.LeftmostBinarySearchTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SearchInsertPositionTest.shouldReturnIndexAccordingToTestData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LengthOfLongestSubstringTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AlgoRun" />
       <extension name="coverage">
         <pattern>
@@ -112,9 +81,43 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="problems" />
-      <option name="MAIN_CLASS_NAME" value="problems.SearchInsertPositionTest" />
-      <option name="METHOD_NAME" value="shouldReturnIndexAccordingToTestData(int[],int,int)" />
+      <option name="MAIN_CLASS_NAME" value="problems.LengthOfLongestSubstringTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LengthOfLongestSubstringTest.shouldReturnIndexAccordingToTestData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AlgoRun" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="problems.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="problems" />
+      <option name="MAIN_CLASS_NAME" value="problems.LengthOfLongestSubstringTest" />
+      <option name="METHOD_NAME" value="shouldReturnIndexAccordingToTestData(java.lang.String,int)" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LengthOfLongestSubstringTest.shouldReturnIndexAccordingToTestData.[1] abcabcbb, 3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AlgoRun" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="problems.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="problems" />
+      <option name="MAIN_CLASS_NAME" value="problems.LengthOfLongestSubstringTest" />
+      <option name="METHOD_NAME" value="shouldReturnIndexAccordingToTestData(java.lang.String,int)" />
+      <option name="TEST_OBJECT" value="uniqueId" />
+      <uniqueIds>
+        <uniqueId value="[engine:junit-jupiter]/[class:problems.LengthOfLongestSubstringTest]/[test-template:shouldReturnIndexAccordingToTestData(java.lang.String, int)]/[test-template-invocation:#1]" />
+      </uniqueIds>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -129,11 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LengthOfLongestSubstringTest" />
+        <item itemvalue="JUnit.LengthOfLongestSubstringTest.shouldReturnIndexAccordingToTestData" />
+        <item itemvalue="JUnit.LengthOfLongestSubstringTest.shouldReturnIndexAccordingToTestData.[1] abcabcbb, 3" />
+        <item itemvalue="JUnit.FixedSizeSlidingWindowTest.shouldReturnIndexAccordingToTestData" />
         <item itemvalue="JUnit.java in AlgoRun" />
-        <item itemvalue="JUnit.CountPairsWhoseSumIsLessThanTargetTest.shouldReturnPairsNumberAccordingToTestData" />
-        <item itemvalue="JUnit.CountPairsWhoseSumIsLessThanTargetTest" />
-        <item itemvalue="JUnit.SearchInsertPositionTest.shouldReturnIndexAccordingToTestData" />
-        <item itemvalue="JUnit.LeftmostBinarySearchTest" />
       </list>
     </recent_temporary>
   </component>
