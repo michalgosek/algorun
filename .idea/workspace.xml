@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0b273fd8-f972-4500-aaf4-3f499640bf68" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/michalgosek/algorithms/twopointers/slidingwindow/FixedSizeSlidingWindow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/michalgosek/problems/LengthOfLongestSubstring.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/algorithms/twopointers/slidingwindow/FixedSizeSlidingWindowTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/problems/LengthOfLongestSubstringTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/michalgosek/algorithms/twopointers/slidingwindow/FlexibleSizeSlidingWindowLongest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/michalgosek/problems/MinimumSizeSubarraySum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/problems/MinimumSizeSubarraySumTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,7 +43,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;solution/3-longest-substring-without-repeating-characters&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -55,19 +54,16 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.LengthOfLongestSubstringTest">
-    <configuration name="FixedSizeSlidingWindowTest.shouldReturnIndexAccordingToTestData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.java in AlgoRun">
+    <configuration name="MinimumSizeSubarraySum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.michalgosek.problems.MinimumSizeSubarraySum" />
       <module name="AlgoRun" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithms.twopointers.slidingwindow.*" />
+          <option name="PATTERN" value="com.michalgosek.problems.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="algorithms.twopointers.slidingwindow" />
-      <option name="MAIN_CLASS_NAME" value="algorithms.twopointers.slidingwindow.FixedSizeSlidingWindowTest" />
-      <option name="METHOD_NAME" value="shouldReturnIndexAccordingToTestData(java.util.List,int,int)" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -87,7 +83,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LengthOfLongestSubstringTest.shouldReturnIndexAccordingToTestData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MinimumSizeSubarraySumTest.shouldReturnIndexAccordingToTestData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AlgoRun" />
       <extension name="coverage">
         <pattern>
@@ -96,28 +92,9 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="problems" />
-      <option name="MAIN_CLASS_NAME" value="problems.LengthOfLongestSubstringTest" />
-      <option name="METHOD_NAME" value="shouldReturnIndexAccordingToTestData(java.lang.String,int)" />
+      <option name="MAIN_CLASS_NAME" value="problems.MinimumSizeSubarraySumTest" />
+      <option name="METHOD_NAME" value="shouldReturnIndexAccordingToTestData(int[],int,int)" />
       <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LengthOfLongestSubstringTest.shouldReturnIndexAccordingToTestData.[1] abcabcbb, 3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="AlgoRun" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="problems.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="problems" />
-      <option name="MAIN_CLASS_NAME" value="problems.LengthOfLongestSubstringTest" />
-      <option name="METHOD_NAME" value="shouldReturnIndexAccordingToTestData(java.lang.String,int)" />
-      <option name="TEST_OBJECT" value="uniqueId" />
-      <uniqueIds>
-        <uniqueId value="[engine:junit-jupiter]/[class:problems.LengthOfLongestSubstringTest]/[test-template:shouldReturnIndexAccordingToTestData(java.lang.String, int)]/[test-template-invocation:#1]" />
-      </uniqueIds>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -130,13 +107,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="slidingwindow in AlgoRun" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AlgoRun" />
+      <option name="TEST_OBJECT" value="directory" />
+      <dir value="$PROJECT_DIR$/src/test/java/algorithms/twopointers/slidingwindow" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.LengthOfLongestSubstringTest" />
-        <item itemvalue="JUnit.LengthOfLongestSubstringTest.shouldReturnIndexAccordingToTestData" />
-        <item itemvalue="JUnit.LengthOfLongestSubstringTest.shouldReturnIndexAccordingToTestData.[1] abcabcbb, 3" />
-        <item itemvalue="JUnit.FixedSizeSlidingWindowTest.shouldReturnIndexAccordingToTestData" />
         <item itemvalue="JUnit.java in AlgoRun" />
+        <item itemvalue="JUnit.MinimumSizeSubarraySumTest.shouldReturnIndexAccordingToTestData" />
+        <item itemvalue="Application.MinimumSizeSubarraySum" />
+        <item itemvalue="JUnit.slidingwindow in AlgoRun" />
+        <item itemvalue="JUnit.LengthOfLongestSubstringTest" />
       </list>
     </recent_temporary>
   </component>
@@ -150,6 +135,8 @@
       <updated>1708590363274</updated>
       <workItem from="1708590364330" duration="7490000" />
       <workItem from="1708676702661" duration="2509000" />
+      <workItem from="1708856787067" duration="8808000" />
+      <workItem from="1708887353490" duration="1802000" />
     </task>
     <servers />
   </component>
