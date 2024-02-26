@@ -1,6 +1,6 @@
-package algorithms.twopointers.slidingwindow;
+package algorithms.twopointers;
 
-import com.michalgosek.algorithms.twopointers.slidingwindow.FixedSizeSlidingWindow;
+import com.michalgosek.algorithms.twopointers.FixedSizeSlidingWindow;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
@@ -26,10 +26,10 @@ public class FixedSizeSlidingWindowTest {
     @ParameterizedTest
     @MethodSource("fixedSizeSlidingWindowTestData")
     public void shouldReturnIndexAccordingToTestData(List<Integer> numbers, int windowSize, int expectedSubarrayMaxSum) {
-        // when:
+        // act:
         var subarrayMaxSum = FixedSizeSlidingWindow.subarraySumFixed(numbers, windowSize);
 
-        // then:
+        // assert:
         assertEquals(expectedSubarrayMaxSum, subarrayMaxSum);
     }
 }

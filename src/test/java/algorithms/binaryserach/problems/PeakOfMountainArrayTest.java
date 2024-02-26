@@ -24,7 +24,7 @@ public class PeakOfMountainArrayTest {
     @ParameterizedTest
     @MethodSource("peakOfMountainArrayTestData")
     public void shouldReturnIndexOfPeakTargetAccordingToTestDataExpectations(List<Integer> array, int expectedPeak) {
-        // when:
+        // act:
         var peak = PeakOfMountainArray.Solution(array);
 
         // act:

@@ -22,10 +22,10 @@ public class MissingNumberTest {
     @ParameterizedTest
     @MethodSource("missingNumberTestData")
     public void shouldReturnMissingNumberAccordingToTestData(int[] array, int expectedNumber) {
-        // when:
+        // act:
         var number = MissingNumber.missingNumber(array);
 
-        // then:
+        // assert:
         assertEquals(expectedNumber, number);
     }
 }

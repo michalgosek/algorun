@@ -30,7 +30,7 @@ public class FindMaximumInRotatedSortedArrayTest {
     @ParameterizedTest
     @MethodSource("findMaximumInRotatedSortedArrayTestData")
     public void shouldReturnIndexOfMaximumValueAccordingToTestDataExpectations(List<Integer> array, int expectedIndex) {
-        // when:
+        // act:
         var index = FindMaximumInRotatedSortedArray.Solution(array);
 
         // act:

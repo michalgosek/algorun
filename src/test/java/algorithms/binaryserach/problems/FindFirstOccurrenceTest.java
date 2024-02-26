@@ -30,7 +30,7 @@ public class FindFirstOccurrenceTest {
     @ParameterizedTest
     @MethodSource("findFirstOccurrenceTestData")
     public void shouldReturnIndexOfFirstTargetOccurrenceAccordingToTestDataExpectations(List<Integer> array, int target, int expectedIndex) {
-        // when:
+        // act:
         var index = FindFirstOccurrence.Solution(array, target);
 
         // act:

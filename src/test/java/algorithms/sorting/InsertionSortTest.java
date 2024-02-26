@@ -12,10 +12,10 @@ public class InsertionSortTest {
     @ParameterizedTest
     @MethodSource("algorithms.sorting.SortingTestDataSource#DataSet")
     public void shouldSortNumbersInAscendingOrder(List<Integer> unsorted, List<Integer> expectedNumbers) {
-        // when:
+        // act:
         InsertionSort.Sort(unsorted);
 
-        // then:
+        // assert:
         assertEquals(expectedNumbers, unsorted);
     }
 }

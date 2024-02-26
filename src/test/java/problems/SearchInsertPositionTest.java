@@ -29,10 +29,10 @@ public class SearchInsertPositionTest {
     @ParameterizedTest
     @MethodSource("leftmostBinarySearchTestData")
     public void shouldReturnIndexAccordingToTestData(int[] array, int target, int expectedIndex) {
-        // when:
+        // act:
         var index = SearchInsertPosition.searchInsert(array, target);
 
-        // then:
+        // assert:
         assertEquals(expectedIndex, index);
     }
 }

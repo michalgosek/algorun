@@ -25,7 +25,7 @@ public class FindMinimumInRotatedSortedArrayTest {
     @ParameterizedTest
     @MethodSource("findMinimumInRotatedSortedArrayTestData")
     public void shouldReturnIndexOfMinimumValueAccordingToTestDataExpectations(List<Integer> array, int expectedIndex) {
-        // when:
+        // act:
         var index = FindMinimumInRotatedSortedArray.Solution(array);
 
         // act:
