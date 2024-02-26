@@ -29,10 +29,10 @@ public class FindBoundaryTest {
     @ParameterizedTest
     @MethodSource("findBoundaryTestData")
     public void shouldReturnIndexOfFirstTrueAccordingToTestDataExpectations(List<Boolean> array, int expectedIndex) {
-        // when:
+        // act:
         var index = FindBoundary.Solution(array);
 
-        // then:
+        // assert:
         assertEquals(expectedIndex, index);
     }
 }

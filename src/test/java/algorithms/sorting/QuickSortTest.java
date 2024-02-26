@@ -12,10 +12,10 @@ public class QuickSortTest {
     @ParameterizedTest
     @MethodSource("algorithms.sorting.SortingTestDataSource#DataSet")
     public void shouldSortNumbersInAscendingOrder(List<Integer> unsorted, List<Integer> expectedNumbers) {
-        // when:
+        // act:
         QuickSort.Sort(unsorted);
 
-        // then:
+        // assert:
         assertEquals(expectedNumbers, unsorted);
     }
 }

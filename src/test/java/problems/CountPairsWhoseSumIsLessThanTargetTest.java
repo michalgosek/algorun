@@ -22,10 +22,10 @@ public class CountPairsWhoseSumIsLessThanTargetTest {
     @ParameterizedTest
     @MethodSource("countPairsWhoseSumIsLessThanTargetTestData")
     public void shouldReturnPairsNumberAccordingToTestData(List<Integer> numbers, int target, int expectedPairs) {
-        // when:
+        // act:
         var pairs = CountPairsWhoseSumIsLessThanTarget.Solution2(numbers, target);
 
-        // then:
+        // assert:
         assertEquals(expectedPairs, pairs);
     }
 }

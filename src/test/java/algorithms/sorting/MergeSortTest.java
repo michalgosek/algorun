@@ -12,10 +12,10 @@ public class MergeSortTest {
     @ParameterizedTest
     @MethodSource("algorithms.sorting.SortingTestDataSource#DataSet")
     public void shouldSortNumbersInAscendingOrder(List<Integer> unsorted, List<Integer> expectedNumbers) {
-        // when:
+        // act:
         var actual = MergeSort.Sort(unsorted);
 
-        // then:
+        // assert:
         assertEquals(expectedNumbers, actual);
     }
 }

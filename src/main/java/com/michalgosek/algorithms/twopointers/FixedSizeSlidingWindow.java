@@ -1,4 +1,4 @@
-package com.michalgosek.algorithms.twopointers.slidingwindow;
+package com.michalgosek.algorithms.twopointers;
 
 import java.util.List;
 

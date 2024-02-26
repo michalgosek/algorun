@@ -26,7 +26,7 @@ public class FirstNotSmallerTest {
     @ParameterizedTest
     @MethodSource("firstNotSmallerTestData")
     public void shouldReturnIndexOfFirstLessValueThanTargetAccordingToTestDataExpectations(List<Integer> array, int target, int expectedIndex) {
-        // when:
+        // act:
         var index = FirstNotSmaller.Solution(array, target);
 
         // act:

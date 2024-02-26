@@ -29,10 +29,10 @@ public class LeftmostBinarySearchTest {
     @ParameterizedTest
     @MethodSource("leftmostBinarySearchTestData")
     public void shouldReturnIndexAccordingToTestData(List<Integer> array, int target, int expectedIndex) {
-        // when:
+        // act:
         var index = LeftmostBinarySearch.Search(array, target);
 
-        // then:
+        // assert:
         assertEquals(expectedIndex, index);
     }
 }

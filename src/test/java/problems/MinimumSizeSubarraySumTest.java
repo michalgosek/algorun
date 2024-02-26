@@ -22,10 +22,10 @@ public class MinimumSizeSubarraySumTest {
     @ParameterizedTest
     @MethodSource("minimumSizeSubarraySumTestData")
     public void shouldReturnIndexAccordingToTestData(int[] nums, int target, int expectedSubarraySize) {
-        // when:
+        // act:
         var minimumSubarraySize = MinimumSizeSubarraySum.Solution(target, nums);
 
-        // then:
+        // assert:
         assertEquals(expectedSubarraySize, minimumSubarraySize);
     }
 }

@@ -28,10 +28,10 @@ public class BinarySearchTest {
     @ParameterizedTest
     @MethodSource("binarySearchTestData")
     public void shouldReturnIndexAccordingToTestData(List<Integer> array, int target, int expectedIndex) {
-        // when:
+        // act:
         var index = BinarySearch.Search(array, target);
 
-        // then:
+        // assert:
         assertEquals(expectedIndex, index);
     }
 }

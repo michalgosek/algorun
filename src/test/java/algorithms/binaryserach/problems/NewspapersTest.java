@@ -25,7 +25,7 @@ public class NewspapersTest {
     @ParameterizedTest
     @MethodSource("newspapersTestData")
     public void shouldReturnLongestReadTimeAccordingToTestDataExpectations(List<Integer> newspapersReadTimes, int numCoworkers, int expectedTime) {
-        // when:
+        // act:
         var time = Newspapers.Solution(newspapersReadTimes, numCoworkers);
 
         // act:

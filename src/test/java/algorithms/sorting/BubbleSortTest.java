@@ -12,10 +12,10 @@ public class BubbleSortTest {
     @ParameterizedTest
     @MethodSource("algorithms.sorting.SortingTestDataSource#DataSet")
     public void shouldSortNumbersInAscendingOrder(List<Integer> unsorted, List<Integer> expectedNumbers) {
-        // when:
+        // act:
         BubbleSort.Sort(unsorted);
 
-        // then:
+        // assert:
         assertEquals(expectedNumbers, unsorted);
     }
 }

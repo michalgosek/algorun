@@ -26,10 +26,10 @@ public class FindTargetIndicesAfterSortingArrayTest {
     @ParameterizedTest
     @MethodSource("findTargetIndicesAfterSortingArrayTestData")
     public void shouldReturnIndexValuesAccordingToTestData(int[] array, int target, List<Integer> expectedIndices) {
-        // when:
+        // act:
         var indices = FindTargetIndicesAfterSortingArray.targetIndices(array, target);
 
-        // then:
+        // assert:
         assertEquals(expectedIndices, indices);
     }
 }

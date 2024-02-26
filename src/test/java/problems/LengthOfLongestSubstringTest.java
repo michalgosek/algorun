@@ -24,10 +24,10 @@ public class LengthOfLongestSubstringTest {
     @ParameterizedTest
     @MethodSource("fixedLengthOfLongestSubstringTest")
     public void shouldReturnIndexAccordingToTestData(String text, int expectedLongestSubstring) {
-        // when:
+        // act:
         var lengthOfLongestSubstring = LengthOfLongestSubstring.Solution(text);
 
-        // then:
+        // assert:
         assertEquals(expectedLongestSubstring, lengthOfLongestSubstring);
     }
 }
