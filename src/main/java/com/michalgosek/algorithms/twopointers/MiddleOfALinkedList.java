@@ -1,5 +1,7 @@
 package com.michalgosek.algorithms.twopointers;
 
+import com.michalgosek.datastructures.linkedlist.Node;
+
 /*
 Find the middle node of a linked list - same direction two pointers.
 
@@ -22,19 +24,5 @@ public class MiddleOfALinkedList {
             fast = fast.next.next;
         }
         return slow.val;
-    }
-
-    public static class Node<T> {
-        public T val;
-        public Node<T> next;
-
-        public Node(T val) {
-            this(val, null);
-        }
-
-        public Node(T val, Node<T> next) {
-            this.val = val;
-            this.next = next;
-        }
     }
 }

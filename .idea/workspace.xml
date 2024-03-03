@@ -5,11 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0b273fd8-f972-4500-aaf4-3f499640bf68" name="Changes" comment="Added another examples of sliding window usage.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/michalgosek/problems/SubarraySum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/michalgosek/problems/SubarraySumTotal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/algorithms/twopointers/SubarraySumTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/algorithms/twopointers/SubarraySumTotalTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/michalgosek/algorithms/twopointers/LinkedListCycle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/michalgosek/datastructures/linkedlist/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/algorithms/testhelpers/TestHelpers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/algorithms/twopointers/LinkedListCycleTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/michalgosek/algorithms/twopointers/MiddleOfALinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/michalgosek/algorithms/twopointers/MiddleOfALinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/algorithms/twopointers/MiddleOfALinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/algorithms/twopointers/MiddleOfALinkedListTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,48 +40,46 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;algorithms/subarray-sum&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/michalgosek/Desktop/Algorithms &amp; Data Structures/algorun/src/main/java/org/example/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "/Users/michalgosek/Desktop/Algorithms & Data Structures/algorun/src/main/java/org/example/Main.java",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="algorithms.twopointers" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SubarraySumTotalTest">
-    <configuration name="SubarraySumTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.LinkedListCycleTest.shouldReturnIsCycleAnswerAccordingToTestData">
+    <configuration name="LinkedListCycle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.michalgosek.algorithms.twopointers.LinkedListCycle" />
       <module name="AlgoRun" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithms.twopointers.*" />
+          <option name="PATTERN" value="com.michalgosek.algorithms.twopointers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="algorithms.twopointers" />
-      <option name="MAIN_CLASS_NAME" value="algorithms.twopointers.SubarraySumTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SubarraySumTest.shouldReturnSubarrayIndicesAccordingToTestData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LinkedListCycleTest.shouldReturnIsCycleAnswerAccordingToTestData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AlgoRun" />
       <extension name="coverage">
         <pattern>
@@ -88,8 +88,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="algorithms.twopointers" />
-      <option name="MAIN_CLASS_NAME" value="algorithms.twopointers.SubarraySumTest" />
-      <option name="METHOD_NAME" value="shouldReturnSubarrayIndicesAccordingToTestData(java.util.List,int,java.util.List)" />
+      <option name="MAIN_CLASS_NAME" value="algorithms.twopointers.LinkedListCycleTest" />
+      <option name="METHOD_NAME" value="shouldReturnIsCycleAnswerAccordingToTestData(com.michalgosek.problems.LinkedListCycle$Node,boolean)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -99,7 +99,7 @@
       <module name="AlgoRun" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithms.twopointers.*" />
+          <option name="PATTERN" value="com.michalgosek.algorithms.twopointers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,7 +114,7 @@
       <module name="AlgoRun" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithms.twopointers.*" />
+          <option name="PATTERN" value="com.michalgosek.algorithms.twopointers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LinkedListCycleTest.shouldReturnIsCycleAnswerAccordingToTestData" />
+        <item itemvalue="Application.LinkedListCycle" />
+        <item itemvalue="JUnit.java in AlgoRun" />
         <item itemvalue="JUnit.SubarraySumTotalTest" />
         <item itemvalue="JUnit.SubarraySumTotalTest.shouldReturnTotalSubarrayCountEqualsToTargetAccordingToTestData" />
-        <item itemvalue="JUnit.SubarraySumTest" />
-        <item itemvalue="JUnit.SubarraySumTest.shouldReturnSubarrayIndicesAccordingToTestData" />
-        <item itemvalue="JUnit.java in AlgoRun" />
       </list>
     </recent_temporary>
   </component>
@@ -164,7 +164,8 @@
       <workItem from="1709372067368" duration="6378000" />
       <workItem from="1709392907526" duration="4713000" />
       <workItem from="1709402553658" duration="798000" />
-      <workItem from="1709464708981" duration="1957000" />
+      <workItem from="1709464708981" duration="2251000" />
+      <workItem from="1709478868986" duration="1469000" />
     </task>
     <servers />
   </component>
