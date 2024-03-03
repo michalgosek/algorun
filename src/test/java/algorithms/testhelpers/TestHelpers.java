@@ -7,7 +7,7 @@ public class TestHelpers {
         var head = new Node<>(0);
         var temp = head;
         for (var i = 1; i < N; i++) {
-            temp.next = new Node<Integer>(i);
+            temp.next = new Node<>(i);
             temp = temp.next;
         }
         return head;
@@ -17,7 +17,7 @@ public class TestHelpers {
         var head = new Node<>(0);
         var temp = head;
         for (var i = 1; i < N; i++) {
-            temp.next = new Node<Integer>(i);
+            temp.next = new Node<>(i);
             temp = temp.next;
         }
         temp.next = head;

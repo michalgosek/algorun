@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0b273fd8-f972-4500-aaf4-3f499640bf68" name="Changes" comment="Added another examples of sliding window usage.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/michalgosek/algorithms/twopointers/LinkedListCycle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/michalgosek/datastructures/linkedlist/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/algorithms/testhelpers/TestHelpers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/algorithms/twopointers/LinkedListCycleTest.java" afterDir="false" />
+    <list default="true" id="0b273fd8-f972-4500-aaf4-3f499640bf68" name="Changes" comment="Added examples with linked list cycle detection, added test helpers class.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/michalgosek/algorithms/twopointers/MiddleOfALinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/michalgosek/algorithms/twopointers/MiddleOfALinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/algorithms/twopointers/MiddleOfALinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/algorithms/twopointers/MiddleOfALinkedListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/algorithms/testhelpers/TestHelpers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/algorithms/testhelpers/TestHelpers.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +60,7 @@
       <recent name="algorithms.twopointers" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.LinkedListCycleTest.shouldReturnIsCycleAnswerAccordingToTestData">
+  <component name="RunManager" selected="JUnit.All in AlgoRun">
     <configuration name="LinkedListCycle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.michalgosek.algorithms.twopointers.LinkedListCycle" />
       <module name="AlgoRun" />
@@ -75,6 +70,14 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in AlgoRun" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AlgoRun" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -110,22 +113,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SubarraySumTotalTest.shouldReturnTotalSubarrayCountEqualsToTargetAccordingToTestData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="AlgoRun" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.michalgosek.algorithms.twopointers.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="algorithms.twopointers" />
-      <option name="MAIN_CLASS_NAME" value="algorithms.twopointers.SubarraySumTotalTest" />
-      <option name="METHOD_NAME" value="shouldReturnTotalSubarrayCountEqualsToTargetAccordingToTestData(java.util.List,int,int)" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="java in AlgoRun" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AlgoRun" />
       <option name="TEST_OBJECT" value="directory" />
@@ -136,11 +123,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in AlgoRun" />
         <item itemvalue="JUnit.LinkedListCycleTest.shouldReturnIsCycleAnswerAccordingToTestData" />
         <item itemvalue="Application.LinkedListCycle" />
         <item itemvalue="JUnit.java in AlgoRun" />
         <item itemvalue="JUnit.SubarraySumTotalTest" />
-        <item itemvalue="JUnit.SubarraySumTotalTest.shouldReturnTotalSubarrayCountEqualsToTargetAccordingToTestData" />
       </list>
     </recent_temporary>
   </component>
@@ -167,6 +154,15 @@
       <workItem from="1709464708981" duration="2251000" />
       <workItem from="1709478868986" duration="1469000" />
     </task>
+    <task id="LOCAL-00001" summary="Added examples with linked list cycle detection, added test helpers class.">
+      <option name="closed" value="true" />
+      <created>1709481722487</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1709481722487</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -174,7 +170,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added another examples of sliding window usage." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added another examples of sliding window usage." />
+    <MESSAGE value="Added examples with linked list cycle detection, added test helpers class." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added examples with linked list cycle detection, added test helpers class." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
