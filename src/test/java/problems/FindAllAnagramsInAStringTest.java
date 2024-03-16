@@ -24,7 +24,7 @@ public class FindAllAnagramsInAStringTest {
     @MethodSource("findAllAnagramsInAStringTestData")
     public void shouldReturnStartingIndicesOfAnagramsAccordingToTestData(String original, String check, List<Integer> expectedIndices) {
         // act:
-        var indices = FindAllAnagramsInAString.findAllAnagrams(original, check);
+        var indices = FindAllAnagramsInAString.Solution(original, check);
 
         // assert:
         assertEquals(expectedIndices, indices);

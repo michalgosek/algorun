@@ -60,7 +60,7 @@ public class FindTargetIndicesAfterSortingArray {
      * Time complexity: O(nlogn)
      * Space complexity: O(n)
      */
-    public static List<Integer> targetIndices(int[] nums, int target) {
+    public static List<Integer> Solution(int[] nums, int target) {
         Arrays.sort(nums);
         var idx = findFirstOccurrence(nums, target);
         if (idx == -1) {

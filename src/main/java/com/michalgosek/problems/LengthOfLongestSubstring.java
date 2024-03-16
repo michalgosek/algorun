@@ -29,6 +29,10 @@ Constraints:
 s consists of English letters, digits, symbols and spaces.
  */
 public class LengthOfLongestSubstring {
+    /**
+     * Time Complexity: O(n^2)
+     * Space complexity: O(n)
+     */
     public static int Solution(String s) {
         if (s.isEmpty()) return 0;
 

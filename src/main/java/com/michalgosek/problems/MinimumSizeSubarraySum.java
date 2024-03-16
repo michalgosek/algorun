@@ -30,6 +30,10 @@ Constraints:
 Follow up: If you have figured out the O(n) solution, try coding another solution of which the time complexity is O(n log(n)).
  */
 public class MinimumSizeSubarraySum {
+    /**
+     * Time complexity: O(n)
+     * Space complexity: O(1)
+     */
     public static int Solution(int target, int[] nums) {
         var left = 0;
         var N = nums.length;

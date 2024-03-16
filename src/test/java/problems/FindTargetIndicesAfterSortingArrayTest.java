@@ -27,7 +27,7 @@ public class FindTargetIndicesAfterSortingArrayTest {
     @MethodSource("findTargetIndicesAfterSortingArrayTestData")
     public void shouldReturnIndexValuesAccordingToTestData(int[] array, int target, List<Integer> expectedIndices) {
         // act:
-        var indices = FindTargetIndicesAfterSortingArray.targetIndices(array, target);
+        var indices = FindTargetIndicesAfterSortingArray.Solution(array, target);
 
         // assert:
         assertEquals(expectedIndices, indices);
