@@ -35,7 +35,7 @@ public class SearchInsertPosition {
      * Time complexity: O(logn)
      * Space complexity: O(1)
      */
-    public static int searchInsert(int[] nums, int target) {
+    public static int Solution(int[] nums, int target) {
         var left = 0;
         var right = nums.length;
         while (left < right) {

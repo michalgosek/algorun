@@ -14,7 +14,7 @@ Output:
 [1, 2, 7, 0, 0, 0]
  */
 public class MoveZeros {
-    public static void moveZeros(List<Integer> nums) {
+    public static void Solution(List<Integer> nums) {
         var N = nums.size();
         var first = 0;
         for (var second = 0; second < N; ++second) {

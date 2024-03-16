@@ -13,7 +13,7 @@ then the smallest window with the sum >= 10 is [7, 3] with length 2. So the outp
 We'll assume for this problem that it's guaranteed target will not exceed the sum of all elements in nums.
  */
 public class SubarraySumShortest {
-    public static int subarraySumShortest(List<Integer> nums, int target) {
+    public static int Solution(List<Integer> nums, int target) {
         var left = 0;
         var N = nums.size();
         var subarraySum = 0;

@@ -25,7 +25,7 @@ public class ValidPalindromeTest {
     @ParameterizedTest
     public void shouldReturnIsPalindromeBooleanValueAccordingToTestData(String text, boolean expectedResult) {
         // act:
-        var isPalindrome = ValidPalindrome.isPalindrome(text);
+        var isPalindrome = ValidPalindrome.Solution(text);
 
         // assert:
         assertEquals(expectedResult, isPalindrome);

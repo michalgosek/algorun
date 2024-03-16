@@ -26,7 +26,7 @@ Output: false
 
  */
 public class LinkedListCycle {
-    public static boolean hasCycle(Node<Integer> nodes) {
+    public static boolean Solution(Node<Integer> nodes) {
         if (nodes == null) return false;
 
         var slow = nodes;

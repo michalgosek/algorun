@@ -14,7 +14,7 @@ so the output is 4 (length of [3, 1, 2, 4]).
 
  */
 public class FlexibleSizeSlidingWindowLongest {
-    public static int subarraySumLongest(List<Integer> nums, int target) {
+    public static int Solution(List<Integer> nums, int target) {
         int longestSubarray = 0;
         var left = 0;
         var windowSum = 0;

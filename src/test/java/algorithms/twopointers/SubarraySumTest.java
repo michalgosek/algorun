@@ -1,6 +1,6 @@
 package algorithms.twopointers;
 
-import com.michalgosek.problems.SubarraySum;
+import com.michalgosek.algorithms.twopointers.SubarraySum;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
@@ -26,7 +26,7 @@ public class SubarraySumTest {
     @MethodSource("SubarraySumTestData")
     public void shouldReturnSubarrayIndicesAccordingToTestData(List<Integer> numbers, int target, List<Integer> expectedIndices) {
         // act:
-        var subarrayIndices = SubarraySum.subarraySum(numbers, target);
+        var subarrayIndices = SubarraySum.Solution(numbers, target);
 
         // arrange:
         assertEquals(expectedIndices, subarrayIndices);

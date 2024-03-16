@@ -26,7 +26,7 @@ public class TwoSumTest {
     @MethodSource("twoSumTestData")
     public void shouldReturnIndicesAccordingToTestData(int[] numbers, int target, int[] expectedIndices) {
         // act:
-        var indices = TwoSum.twoSum(numbers, target);
+        var indices = TwoSum.Solution(numbers, target);
 
         // assert:
         assertArrayEquals(expectedIndices, indices);

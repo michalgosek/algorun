@@ -23,7 +23,7 @@ public class MissingNumberTest {
     @MethodSource("missingNumberTestData")
     public void shouldReturnMissingNumberAccordingToTestData(int[] array, int expectedNumber) {
         // act:
-        var number = MissingNumber.missingNumber(array);
+        var number = MissingNumber.Solution(array);
 
         // assert:
         assertEquals(expectedNumber, number);

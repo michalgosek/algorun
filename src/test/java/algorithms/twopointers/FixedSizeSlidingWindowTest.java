@@ -27,7 +27,7 @@ public class FixedSizeSlidingWindowTest {
     @MethodSource("fixedSizeSlidingWindowTestData")
     public void shouldReturnIndexAccordingToTestData(List<Integer> numbers, int windowSize, int expectedSubarrayMaxSum) {
         // act:
-        var subarrayMaxSum = FixedSizeSlidingWindow.subarraySumFixed(numbers, windowSize);
+        var subarrayMaxSum = FixedSizeSlidingWindow.Solution(numbers, windowSize);
 
         // assert:
         assertEquals(expectedSubarrayMaxSum, subarrayMaxSum);

@@ -1,4 +1,4 @@
-package com.michalgosek.problems;
+package com.michalgosek.algorithms.twopointers;
 
 import java.util.HashMap;
 import java.util.List;
@@ -14,7 +14,11 @@ Explanation:
 
  */
 public class SubarraySumTotal {
-    public static int subarraySumTotal(List<Integer> arr, int target) {
+    /**
+     * Time complexity: O(n)
+     * Space complexity: O(n)
+     */
+    public static int Solution(List<Integer> arr, int target) {
         var prefixSums = new HashMap<Integer, Integer>();
         prefixSums.put(0, 1); // Base case for empty subarray
         var currentSum = 0;

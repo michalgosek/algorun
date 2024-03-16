@@ -4,9 +4,38 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0b273fd8-f972-4500-aaf4-3f499640bf68" name="Changes" comment="Added examples with linked list cycle detection, added test helpers class.">
+    <list default="true" id="0b273fd8-f972-4500-aaf4-3f499640bf68" name="Changes" comment="Removed unnecessary types during nodes creation.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/michalgosek/algorithms/twopointers/MinimumWindowSubstring.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/michalgosek/problems/FindAllAnagramsInAString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/michalgosek/problems/FindMinimumTimeToFinishAllJobs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/problems/FindAllAnagramsInAStringTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/problems/MinimumWindowSubstringTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/algorithms/testhelpers/TestHelpers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/algorithms/testhelpers/TestHelpers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/michalgosek/algorithms/binarysearch/problems/Newspapers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/michalgosek/algorithms/binarysearch/problems/Newspapers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/michalgosek/algorithms/sorting/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/michalgosek/algorithms/sorting/BubbleSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/michalgosek/algorithms/sorting/InsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/michalgosek/algorithms/sorting/InsertionSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/michalgosek/algorithms/sorting/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/michalgosek/algorithms/sorting/MergeSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/michalgosek/algorithms/sorting/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/michalgosek/algorithms/sorting/QuickSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/michalgosek/algorithms/sorting/SelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/michalgosek/algorithms/sorting/SelectionSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/michalgosek/algorithms/twopointers/FindAllAnagramsInAString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/michalgosek/algorithms/twopointers/FindAllAnagramsInAString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/michalgosek/algorithms/twopointers/FlexibleSizeSlidingWindowLongest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/michalgosek/algorithms/twopointers/FlexibleSizeSlidingWindowLongest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/michalgosek/algorithms/twopointers/LeastConsecutiveCardsToMatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/michalgosek/algorithms/twopointers/LeastConsecutiveCardsToMatch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/michalgosek/algorithms/twopointers/LinkedListCycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/michalgosek/algorithms/twopointers/LinkedListCycle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/michalgosek/algorithms/twopointers/LongestSubstringWithoutRepeatingCharacters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/michalgosek/algorithms/twopointers/LongestSubstringWithoutRepeatingCharacters.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/michalgosek/algorithms/twopointers/MoveZeros.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/michalgosek/algorithms/twopointers/MoveZeros.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/michalgosek/algorithms/twopointers/SubarraySumShortest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/michalgosek/algorithms/twopointers/SubarraySumShortest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/michalgosek/algorithms/twopointers/ValidPalindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/michalgosek/algorithms/twopointers/ValidPalindrome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/michalgosek/problems/MissingNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/michalgosek/problems/MissingNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/michalgosek/problems/SearchInsertPosition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/michalgosek/problems/SearchInsertPosition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/michalgosek/problems/SubarraySum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/michalgosek/algorithms/twopointers/SubarraySum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/michalgosek/problems/SubarraySumTotal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/michalgosek/algorithms/twopointers/SubarraySumTotal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/michalgosek/problems/TwoSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/michalgosek/problems/TwoSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/algorithms/twopointers/SubarraySumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/algorithms/twopointers/SubarraySumTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/algorithms/twopointers/SubarraySumTotalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/algorithms/twopointers/SubarraySumTotalTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/algorithms/twopointers/ValidPalindromeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/algorithms/twopointers/ValidPalindromeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/problems/MissingNumberTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/problems/MissingNumberTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/problems/SearchInsertPositionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/problems/SearchInsertPositionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/problems/TwoSumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/problems/TwoSumTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +46,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -35,38 +65,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "/Users/michalgosek/Desktop/Algorithms & Data Structures/algorun/src/main/java/org/example/Main.java",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/michalgosek/Desktop/Algorithms &amp; Data Structures/algorun/src/main/java/org/example/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="algorithms.twopointers" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.All in AlgoRun">
-    <configuration name="LinkedListCycle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.michalgosek.algorithms.twopointers.LinkedListCycle" />
+  <component name="RunManager" selected="JUnit.FindAllAnagramsInAStringTest">
+    <configuration name="Sandbox" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.michalgosek.algorithms.binarysearch.problems.Sandbox" />
       <module name="AlgoRun" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.michalgosek.algorithms.twopointers.*" />
+          <option name="PATTERN" value="com.michalgosek.algorithms.binarysearch.problems.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -74,60 +104,75 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="All in AlgoRun" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="AlgoRun" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LinkedListCycleTest.shouldReturnIsCycleAnswerAccordingToTestData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FindAllAnagramsInAStringTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AlgoRun" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithms.twopointers.*" />
+          <option name="PATTERN" value="problems.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="algorithms.twopointers" />
-      <option name="MAIN_CLASS_NAME" value="algorithms.twopointers.LinkedListCycleTest" />
-      <option name="METHOD_NAME" value="shouldReturnIsCycleAnswerAccordingToTestData(com.michalgosek.problems.LinkedListCycle$Node,boolean)" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SubarraySumTotalTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="AlgoRun" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.michalgosek.algorithms.twopointers.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="algorithms.twopointers" />
-      <option name="MAIN_CLASS_NAME" value="algorithms.twopointers.SubarraySumTotalTest" />
+      <option name="PACKAGE_NAME" value="problems" />
+      <option name="MAIN_CLASS_NAME" value="problems.FindAllAnagramsInAStringTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="java in AlgoRun" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MergeSortTest.shouldSortNumbersInAscendingOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AlgoRun" />
-      <option name="TEST_OBJECT" value="directory" />
-      <dir value="$PROJECT_DIR$/src/test/java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algorithms.sorting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="algorithms.sorting" />
+      <option name="MAIN_CLASS_NAME" value="algorithms.sorting.MergeSortTest" />
+      <option name="METHOD_NAME" value="shouldSortNumbersInAscendingOrder(java.util.List,java.util.List)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NewspapersTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AlgoRun" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algorithms.binaryserach.problems.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="algorithms.binaryserach.problems" />
+      <option name="MAIN_CLASS_NAME" value="algorithms.binaryserach.problems.NewspapersTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QuickSortTest.shouldSortNumbersInAscendingOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AlgoRun" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algorithms.sorting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="algorithms.sorting" />
+      <option name="MAIN_CLASS_NAME" value="algorithms.sorting.QuickSortTest" />
+      <option name="METHOD_NAME" value="shouldSortNumbersInAscendingOrder(java.util.List,java.util.List)" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.All in AlgoRun" />
-        <item itemvalue="JUnit.LinkedListCycleTest.shouldReturnIsCycleAnswerAccordingToTestData" />
-        <item itemvalue="Application.LinkedListCycle" />
-        <item itemvalue="JUnit.java in AlgoRun" />
-        <item itemvalue="JUnit.SubarraySumTotalTest" />
+        <item itemvalue="JUnit.FindAllAnagramsInAStringTest" />
+        <item itemvalue="JUnit.NewspapersTest" />
+        <item itemvalue="Application.Sandbox" />
+        <item itemvalue="JUnit.QuickSortTest.shouldSortNumbersInAscendingOrder" />
+        <item itemvalue="JUnit.MergeSortTest.shouldSortNumbersInAscendingOrder" />
       </list>
     </recent_temporary>
   </component>
@@ -153,6 +198,14 @@
       <workItem from="1709402553658" duration="798000" />
       <workItem from="1709464708981" duration="2251000" />
       <workItem from="1709478868986" duration="1469000" />
+      <workItem from="1709625025011" duration="14081000" />
+      <workItem from="1709712280966" duration="3207000" />
+      <workItem from="1709829789769" duration="109000" />
+      <workItem from="1709836297502" duration="575000" />
+      <workItem from="1709985921285" duration="3088000" />
+      <workItem from="1710005616393" duration="1349000" />
+      <workItem from="1710405852599" duration="2474000" />
+      <workItem from="1710582802294" duration="4434000" />
     </task>
     <task id="LOCAL-00001" summary="Added examples with linked list cycle detection, added test helpers class.">
       <option name="closed" value="true" />

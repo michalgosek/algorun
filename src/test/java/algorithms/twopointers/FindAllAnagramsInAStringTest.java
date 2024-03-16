@@ -27,7 +27,7 @@ public class FindAllAnagramsInAStringTest {
     @ParameterizedTest
     public void shouldMovesZeroFromNumbersArrayToTheEndAccordingToTestData(String original, String check, List<Integer> expectedIndices) {
         // act:
-        var anagramIndices = FindAllAnagramsInAString.findAllAnagrams(original, check);
+        var anagramIndices = FindAllAnagramsInAString.Solution(original, check);
 
         // assert:
         assertEquals(expectedIndices, anagramIndices);

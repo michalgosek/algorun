@@ -27,7 +27,7 @@ public class LeastConsecutiveCardsToMatchTest {
     @MethodSource("leastConsecutiveCardsToMatchTestData")
     public void shouldReturnShortestSubarraySizeAccordingToTestData(List<Integer> numbers, int expectedDeckSizeWithPair) {
         // act:
-        var consecutiveCardsToMatch = LeastConsecutiveCardsToMatch.leastConsecutiveCardsToMatch(numbers);
+        var consecutiveCardsToMatch = LeastConsecutiveCardsToMatch.Solution(numbers);
 
         // arrange:
         assertEquals(expectedDeckSizeWithPair, consecutiveCardsToMatch);

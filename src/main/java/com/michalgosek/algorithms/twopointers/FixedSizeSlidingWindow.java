@@ -10,7 +10,7 @@ For example, if the input is nums = [1, 2, 3, 7, 4, 1], k = 3, then the output w
 largest length 3 subarray sum is given by [3, 7, 4] which sums to 14.
  */
 public class FixedSizeSlidingWindow {
-    public static int subarraySumFixed(List<Integer> nums, int k) {
+    public static int Solution(List<Integer> nums, int k) {
         if (nums.size() < k) {
             throw new RuntimeException("The nums list size is less then specified k");
         }

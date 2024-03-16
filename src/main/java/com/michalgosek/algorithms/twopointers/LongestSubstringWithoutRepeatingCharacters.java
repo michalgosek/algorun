@@ -17,7 +17,7 @@ Output: 2
 Explanation: ab is the longest substring, length 2
  */
 public class LongestSubstringWithoutRepeatingCharacters {
-    public static int longestSubstringWithoutRepeatingCharacters(String s) {
+    public static int Solution(String s) {
         var N = s.length();
         var left = 0;
         var windowCharacterSet = new HashSet<Character>();

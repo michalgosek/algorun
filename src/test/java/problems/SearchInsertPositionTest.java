@@ -30,7 +30,7 @@ public class SearchInsertPositionTest {
     @MethodSource("leftmostBinarySearchTestData")
     public void shouldReturnIndexAccordingToTestData(int[] array, int target, int expectedIndex) {
         // act:
-        var index = SearchInsertPosition.searchInsert(array, target);
+        var index = SearchInsertPosition.Solution(array, target);
 
         // assert:
         assertEquals(expectedIndex, index);

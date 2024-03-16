@@ -24,7 +24,7 @@ public class MoveZerosTest {
     @ParameterizedTest
     public void shouldMovesZeroFromNumbersArrayToTheEndAccordingToTestData(List<Integer> numbers, List<Integer> expectedNumbers) {
         // act:
-        MoveZeros.moveZeros(numbers);
+        MoveZeros.Solution(numbers);
 
         // assert:
         assertEquals(expectedNumbers, numbers);

@@ -18,7 +18,7 @@ so you need to pick up at least 4 cards to make a match.
  */
 
 public class LeastConsecutiveCardsToMatch {
-    public static int leastConsecutiveCardsToMatch(List<Integer> cards) {
+    public static int Solution(List<Integer> cards) {
         var N = cards.size();
         var minimumDeckSizeWithPair = N + 1;
         var left = 0;

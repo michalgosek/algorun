@@ -10,7 +10,7 @@ Input: A brown fox jumping over Output: False
  */
 
 public class ValidPalindrome {
-    public static boolean isPalindrome(String s) {
+    public static boolean Solution(String s) {
         var left = 0;
         var right = s.length() - 1;
 

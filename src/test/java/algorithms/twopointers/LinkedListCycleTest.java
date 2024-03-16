@@ -26,7 +26,7 @@ public class LinkedListCycleTest {
     @MethodSource("linkedListCycleTestData")
     public void shouldReturnIsCycleAnswerAccordingToTestData(Node<Integer> nodes, boolean expectedCycle) {
         // act:
-        var hasCycle = LinkedListCycle.hasCycle(nodes);
+        var hasCycle = LinkedListCycle.Solution(nodes);
 
         // assert:
         assertEquals(expectedCycle, hasCycle);

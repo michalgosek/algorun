@@ -42,7 +42,7 @@ public class TwoSum {
      * Time complexity: O(n)
      * Space complexity: O(n)
      */
-    public static int[] twoSum(int[] nums, int target) {
+    public static int[] Solution(int[] nums, int target) {
         var N = nums.length;
         var numberIndices = new HashMap<Integer, Integer>();
         for (var index = 0; index < N; ++index) {

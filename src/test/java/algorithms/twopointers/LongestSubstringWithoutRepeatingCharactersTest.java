@@ -25,7 +25,7 @@ public class LongestSubstringWithoutRepeatingCharactersTest {
     @MethodSource("longestSubstringWithoutRepeatingCharactersTestData")
     public void shouldReturnLongestSubstringWithoutRepeatingCharactersAccordingToTestData(String text, int expectedLongestSubstringLength) {
         // act:
-        var longestSubstringWithoutDuplicates = LongestSubstringWithoutRepeatingCharacters.longestSubstringWithoutRepeatingCharacters(text);
+        var longestSubstringWithoutDuplicates = LongestSubstringWithoutRepeatingCharacters.Solution(text);
 
         // assert:
         assertEquals(expectedLongestSubstringLength, longestSubstringWithoutDuplicates);

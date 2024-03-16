@@ -26,7 +26,7 @@ public class SubarraySumShortestTest {
     @MethodSource("subarraySumShortestTestData")
     public void shouldReturnShortestSubarraySizeAccordingToTestData(List<Integer> numbers, int target, int expectedSubarraySize) {
         // act:
-        var subarraySize = SubarraySumShortest.subarraySumShortest(numbers, target);
+        var subarraySize = SubarraySumShortest.Solution(numbers, target);
 
         // arrange:
         assertEquals(expectedSubarraySize, subarraySize);

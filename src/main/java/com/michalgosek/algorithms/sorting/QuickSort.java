@@ -7,6 +7,11 @@ public class QuickSort {
         sort(numbers, 0, numbers.size());
     }
 
+    /**
+     * Time complexity: O(nlog(n))<br>
+     * Space complexity: O(n)<br><br>
+     * The algorithm is not stable.
+     */
     private static void sort(List<Integer> numbers, int start, int end) {
         if (end - start <= 1) return;
 

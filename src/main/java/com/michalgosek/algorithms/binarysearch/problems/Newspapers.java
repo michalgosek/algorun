@@ -42,20 +42,19 @@ Assign [2, 3], [5], and [7] separately to workers. The minimum time is 7.
 public class Newspapers {
     public static int Solution(List<Integer> newspapersReadTimes, int numCoworkers) {
         int low = Collections.max(newspapersReadTimes);
-        int high = 0;
+        int high = newspapersReadTimes.stream().reduce(0, Integer::sum);
         int ans = -1;
-        for (var newspapersReadTime : newspapersReadTimes) {
-            high += newspapersReadTime;
-            while (low <= high) {
-                var mid = low + (high - low) / 2;
-                if (feasible(newspapersReadTimes, numCoworkers, mid)) {
-                    ans = mid;
-                    high = mid - 1;
-                } else {
-                    low = mid + 1;
-                }
+
+        while (low <= high) {
+            var mid = low + (high - low) / 2;
+            if (feasible(newspapersReadTimes, numCoworkers, mid)) {
+                ans = mid;
+                high = mid - 1;
+            } else {
+                low = mid + 1;
             }
         }
+
         return ans;
     }
 

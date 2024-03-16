@@ -40,7 +40,7 @@ public class MissingNumber {
      * Time complexity: O(n)
      * Space complexity: O(1)
      */
-    public static int missingNumber(int[] nums) {
+    public static int Solution(int[] nums) {
         var sum = 0;
         for (var num : nums) {
             sum += num;

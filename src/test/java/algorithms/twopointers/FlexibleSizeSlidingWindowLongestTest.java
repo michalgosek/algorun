@@ -26,7 +26,7 @@ public class FlexibleSizeSlidingWindowLongestTest {
     @MethodSource("flexibleSizeSlidingWindowLongestTestData")
     public void shouldReturnSubarraySizeAccordingToTestData(List<Integer> numbers, int target, int expectedSubarrayLength) {
         // act:
-        var subarrayLength = FlexibleSizeSlidingWindowLongest.subarraySumLongest(numbers, target);
+        var subarrayLength = FlexibleSizeSlidingWindowLongest.Solution(numbers, target);
 
         // assert:
         assertEquals(expectedSubarrayLength, subarrayLength);

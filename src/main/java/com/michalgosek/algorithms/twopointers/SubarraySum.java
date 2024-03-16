@@ -1,4 +1,4 @@
-package com.michalgosek.problems;
+package com.michalgosek.algorithms.twopointers;
 
 import java.util.HashMap;
 import java.util.List;
@@ -14,7 +14,11 @@ Output: 1 4
 Explanation: -20 - 3 + 30 = 7. The indices for subarray [-20,-3,30] is 1 and 4 (right exclusive).
  */
 public class SubarraySum {
-    public static List<Integer> subarraySum(List<Integer> arr, int target) {
+    /**
+     * Time complexity: O(n)
+     * Space complexity: O(n)
+     */
+    public static List<Integer> Solution(List<Integer> arr, int target) {
         var prefixSum = new HashMap<Integer, Integer>();
         prefixSum.put(0, 0);
         var N = arr.size();
