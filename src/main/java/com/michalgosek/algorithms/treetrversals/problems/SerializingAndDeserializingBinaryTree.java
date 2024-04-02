@@ -13,6 +13,27 @@ want as long as it can be deseralized.
  */
 
 public class SerializingAndDeserializingBinaryTree {
+    private static void serializeDfs(Node<Integer> root, StringJoiner result) {
+        if (root == null) {
+            result.add("x");
+            return;
+        }
+        result.add(Integer.toString(root.value));
+        serializeDfs(root.left, result);
+        serializeDfs(root.right, result);
+    }
+
+    private static Node<Integer> deserializeDfs(Iterator<String> nodes) {
+        var value = nodes.next();
+        if (value.equals("x")) {
+            return null;
+        }
+        var curr = new Node<>(Integer.parseInt(value));
+        curr.left = deserializeDfs(nodes);
+        curr.right = deserializeDfs(nodes);
+        return curr;
+    }
+
     /**
      * Time complexity: O(n)
      * Space complexity: O(h) where "h" is the height of the tree representing the stack memory space,
@@ -34,26 +55,5 @@ public class SerializingAndDeserializingBinaryTree {
      */
     public Node<Integer> deserialize(String root) {
         return deserializeDfs(Arrays.stream(root.split(" ")).iterator());
-    }
-
-    private static void serializeDfs(Node<Integer> root, StringJoiner result) {
-        if (root == null) {
-            result.add("x");
-            return;
-        }
-        result.add(Integer.toString(root.value));
-        serializeDfs(root.left, result);
-        serializeDfs(root.right, result);
-    }
-
-    private static Node<Integer> deserializeDfs(Iterator<String> nodes) {
-        var value = nodes.next();
-        if (value.equals("x")) {
-            return null;
-        }
-        var curr = new Node<>(Integer.parseInt(value));
-        curr.left = deserializeDfs(nodes);
-        curr.right = deserializeDfs(nodes);
-        return curr;
     }
 }
