@@ -1,6 +1,6 @@
 package problems;
 
-import com.michalgosek.algorithms.twopointers.MinimumWindowSubstring;
+import com.michalgosek.problems.MinimumWindowSubstring;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;

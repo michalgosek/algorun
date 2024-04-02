@@ -1,4 +1,4 @@
-package com.michalgosek.algorithms.twopointers;
+package com.michalgosek.problems;
 
 import java.util.HashMap;
 
@@ -29,6 +29,10 @@ original and check both contains only upper case and lower case characters in En
  */
 
 public class MinimumWindowSubstring {
+    /**
+     * Time complexity: O(n)
+     * Space complexity: O(1)
+     */
     public static String Solution(String original, String check) {
         var checkCharacters = new HashMap<Character, Integer>();
         for (var character : check.toCharArray()) {
