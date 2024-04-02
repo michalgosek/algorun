@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0b273fd8-f972-4500-aaf4-3f499640bf68" name="Changes" comment="Removed empty file.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/michalgosek/problems/InsertIntoABinaryTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/michalgosek/problems/LowestCommonAncestorOfABinarySearchTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/michalgosek/problems/TreeNode.java" afterDir="false" />
+    <list default="true" id="0b273fd8-f972-4500-aaf4-3f499640bf68" name="Changes" comment="Added solution for leetcode problems.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/michalgosek/problems/LowestCommonAncestorOfABinaryTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -175,7 +173,8 @@
       <workItem from="1711364570630" duration="3233000" />
       <workItem from="1711400135852" duration="2654000" />
       <workItem from="1711606383455" duration="3082000" />
-      <workItem from="1712070683568" duration="1716000" />
+      <workItem from="1712070683568" duration="2387000" />
+      <workItem from="1712086205947" duration="1107000" />
     </task>
     <task id="LOCAL-00001" summary="Added examples with linked list cycle detection, added test helpers class.">
       <option name="closed" value="true" />
@@ -281,7 +280,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712071556892</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Added solution for leetcode problems.">
+      <option name="closed" value="true" />
+      <created>1712073258023</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1712073258023</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -313,7 +320,8 @@
     <MESSAGE value="Update." />
     <MESSAGE value="Added time, space complexity." />
     <MESSAGE value="Removed empty file." />
-    <option name="LAST_COMMIT_MESSAGE" value="Removed empty file." />
+    <MESSAGE value="Added solution for leetcode problems." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added solution for leetcode problems." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
