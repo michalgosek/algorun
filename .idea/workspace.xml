@@ -4,14 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0b273fd8-f972-4500-aaf4-3f499640bf68" name="Changes" comment="Removed unnecessary types during nodes creation.">
+    <list default="true" id="0b273fd8-f972-4500-aaf4-3f499640bf68" name="Changes" comment="Added missing time and space complexity.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/michalgosek/algorithms/treetrversals/DepthFirstSearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/michalgosek/algorithms/treetrversals/InOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/michalgosek/algorithms/treetrversals/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/michalgosek/algorithms/treetrversals/PostOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/michalgosek/algorithms/treetrversals/PreOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/michalgosek/algorithms/treetrversals/problems/BalancedBinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/michalgosek/algorithms/treetrversals/problems/InsertIntoBinarySearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/michalgosek/algorithms/treetrversals/problems/MaxDepthOfBinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/michalgosek/algorithms/treetrversals/problems/SerializingAndDeserializingBinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/michalgosek/algorithms/treetrversals/problems/ValidBinarySearchTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/michalgosek/algorithms/treetrversals/problems/VisibleTreeNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/michalgosek/problems/FindMinimumTimeToFinishAllJobs.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/michalgosek/problems/FindTargetIndicesAfterSortingArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/michalgosek/problems/FindTargetIndicesAfterSortingArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/michalgosek/problems/LengthOfLongestSubstring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/michalgosek/problems/LengthOfLongestSubstring.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/michalgosek/problems/MinimumSizeSubarraySum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/michalgosek/problems/MinimumSizeSubarraySum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/michalgosek/algorithms/twopointers/FindAllAnagramsInAString.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/michalgosek/algorithms/twopointers/MinimumWindowSubstring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/michalgosek/problems/MinimumWindowSubstring.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/michalgosek/problems/FindAllAnagramsInAString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/michalgosek/problems/FindAllAnagramsInAString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/algorithms/twopointers/FindAllAnagramsInAStringTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/algorithms/twopointers/FindAllAnagramsInAStringTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/problems/FindAllAnagramsInAStringTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/problems/FindAllAnagramsInAStringTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/problems/FindTargetIndicesAfterSortingArrayTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/problems/FindTargetIndicesAfterSortingArrayTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/problems/MinimumWindowSubstringTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/problems/MinimumWindowSubstringTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,8 +32,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -54,7 +65,7 @@
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;onboarding.tips.debug.path&quot;: &quot;/Users/michalgosek/Desktop/Algorithms &amp; Data Structures/algorun/src/main/java/org/example/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
@@ -172,7 +183,17 @@
       <workItem from="1709985921285" duration="3088000" />
       <workItem from="1710005616393" duration="1349000" />
       <workItem from="1710405852599" duration="2474000" />
-      <workItem from="1710582802294" duration="5127000" />
+      <workItem from="1710582802294" duration="5355000" />
+      <workItem from="1710610349999" duration="1345000" />
+      <workItem from="1710685962813" duration="3026000" />
+      <workItem from="1710780503257" duration="270000" />
+      <workItem from="1710795906875" duration="204000" />
+      <workItem from="1710870265193" duration="3712000" />
+      <workItem from="1710965905172" duration="606000" />
+      <workItem from="1711205411987" duration="6062000" />
+      <workItem from="1711364570630" duration="3233000" />
+      <workItem from="1711400135852" duration="2654000" />
+      <workItem from="1711606383455" duration="3082000" />
     </task>
     <task id="LOCAL-00001" summary="Added examples with linked list cycle detection, added test helpers class.">
       <option name="closed" value="true" />
