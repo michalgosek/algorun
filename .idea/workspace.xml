@@ -4,25 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0b273fd8-f972-4500-aaf4-3f499640bf68" name="Changes" comment="Added missing time and space complexity.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/michalgosek/algorithms/treetrversals/DepthFirstSearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/michalgosek/algorithms/treetrversals/InOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/michalgosek/algorithms/treetrversals/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/michalgosek/algorithms/treetrversals/PostOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/michalgosek/algorithms/treetrversals/PreOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/michalgosek/algorithms/treetrversals/problems/BalancedBinaryTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/michalgosek/algorithms/treetrversals/problems/InsertIntoBinarySearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/michalgosek/algorithms/treetrversals/problems/MaxDepthOfBinaryTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/michalgosek/algorithms/treetrversals/problems/SerializingAndDeserializingBinaryTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/michalgosek/algorithms/treetrversals/problems/ValidBinarySearchTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/michalgosek/algorithms/treetrversals/problems/VisibleTreeNode.java" afterDir="false" />
+    <list default="true" id="0b273fd8-f972-4500-aaf4-3f499640bf68" name="Changes" comment="Removed empty file.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/michalgosek/problems/InsertIntoABinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/michalgosek/problems/LowestCommonAncestorOfABinarySearchTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/michalgosek/problems/TreeNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/michalgosek/algorithms/twopointers/FindAllAnagramsInAString.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/michalgosek/algorithms/twopointers/MinimumWindowSubstring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/michalgosek/problems/MinimumWindowSubstring.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/michalgosek/problems/FindAllAnagramsInAString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/michalgosek/problems/FindAllAnagramsInAString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/algorithms/twopointers/FindAllAnagramsInAStringTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/algorithms/twopointers/FindAllAnagramsInAStringTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/problems/FindAllAnagramsInAStringTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/problems/FindAllAnagramsInAStringTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/problems/MinimumWindowSubstringTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/problems/MinimumWindowSubstringTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,16 +63,11 @@
       <recent name="algorithms.twopointers" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.All in AlgoRun">
-    <configuration name="Sandbox" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.michalgosek.algorithms.binarysearch.problems.Sandbox" />
+  <component name="RunManager" selected="JUnit.All in AlgoRun (1)">
+    <configuration name="All in AlgoRun (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AlgoRun" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.michalgosek.algorithms.binarysearch.problems.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -146,11 +127,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in AlgoRun (1)" />
         <item itemvalue="JUnit.All in AlgoRun" />
         <item itemvalue="JUnit.FindTargetIndicesAfterSortingArrayTest" />
         <item itemvalue="JUnit.FindAllAnagramsInAStringTest" />
         <item itemvalue="JUnit.NewspapersTest" />
-        <item itemvalue="Application.Sandbox" />
       </list>
     </recent_temporary>
   </component>
@@ -194,6 +175,7 @@
       <workItem from="1711364570630" duration="3233000" />
       <workItem from="1711400135852" duration="2654000" />
       <workItem from="1711606383455" duration="3082000" />
+      <workItem from="1712070683568" duration="1716000" />
     </task>
     <task id="LOCAL-00001" summary="Added examples with linked list cycle detection, added test helpers class.">
       <option name="closed" value="true" />
@@ -203,7 +185,103 @@
       <option name="project" value="LOCAL" />
       <updated>1709481722487</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary=" Added InOrder tree traversal.">
+      <option name="closed" value="true" />
+      <created>1712071261190</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1712071261190</updated>
+    </task>
+    <task id="LOCAL-00003" summary=" Added FindAllAnagramsInAString with time,space complexity and unit tests.">
+      <option name="closed" value="true" />
+      <created>1712071289501</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1712071289501</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Added DepthFirstSearch.">
+      <option name="closed" value="true" />
+      <created>1712071308127</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1712071308127</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Added PreOder, PostOrder tree traversals.">
+      <option name="closed" value="true" />
+      <created>1712071329254</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1712071329254</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Added problems solution for tree traversal problems.">
+      <option name="closed" value="true" />
+      <created>1712071362743</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1712071362743</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Added BalancedBinaryTree dfs implementation.">
+      <option name="closed" value="true" />
+      <created>1712071384660</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1712071384660</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Imports update.">
+      <option name="closed" value="true" />
+      <created>1712071410172</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1712071410172</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Added MaxDepthOfBinaryTree problem solution.">
+      <option name="closed" value="true" />
+      <created>1712071428931</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1712071428931</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Clean up.">
+      <option name="closed" value="true" />
+      <created>1712071440348</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1712071440348</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Update.">
+      <option name="closed" value="true" />
+      <created>1712071449103</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1712071449103</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Added time, space complexity.">
+      <option name="closed" value="true" />
+      <created>1712071546758</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1712071546758</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Removed empty file.">
+      <option name="closed" value="true" />
+      <created>1712071556892</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1712071556892</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -223,7 +301,19 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added another examples of sliding window usage." />
     <MESSAGE value="Added examples with linked list cycle detection, added test helpers class." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added examples with linked list cycle detection, added test helpers class." />
+    <MESSAGE value=" Added InOrder tree traversal." />
+    <MESSAGE value=" Added FindAllAnagramsInAString with time,space complexity and unit tests." />
+    <MESSAGE value="Added DepthFirstSearch." />
+    <MESSAGE value="Added PreOder, PostOrder tree traversals." />
+    <MESSAGE value="Added problems solution for tree traversal problems." />
+    <MESSAGE value="Added BalancedBinaryTree dfs implementation." />
+    <MESSAGE value="Imports update." />
+    <MESSAGE value="Added MaxDepthOfBinaryTree problem solution." />
+    <MESSAGE value="Clean up." />
+    <MESSAGE value="Update." />
+    <MESSAGE value="Added time, space complexity." />
+    <MESSAGE value="Removed empty file." />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed empty file." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
