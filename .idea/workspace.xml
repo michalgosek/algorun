@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0b273fd8-f972-4500-aaf4-3f499640bf68" name="Changes" comment="Added solution for leetcode problems.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/michalgosek/problems/LowestCommonAncestorOfABinaryTree.java" afterDir="false" />
+    <list default="true" id="0b273fd8-f972-4500-aaf4-3f499640bf68" name="Changes" comment="Added solution for leetcode problem.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/michalgosek/problems/InOrderTraversal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/michalgosek/algorithms/sorting/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/michalgosek/algorithms/sorting/MergeSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/algorithms/sorting/SortingTestDataSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/algorithms/sorting/SortingTestDataSource.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,79 +59,92 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.michalgosek.algorithms.treetrversals" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="algorithms.twopointers" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.All in AlgoRun (1)">
-    <configuration name="All in AlgoRun (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="AlgoRun" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="All in AlgoRun" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="AlgoRun" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FindAllAnagramsInAStringTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.TimeMap">
+    <configuration name="SandBox" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.michalgosek.algorithms.treetrversals.SandBox" />
       <module name="AlgoRun" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="problems.*" />
+          <option name="PATTERN" value="com.michalgosek.algorithms.treetrversals.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="problems" />
-      <option name="MAIN_CLASS_NAME" value="problems.FindAllAnagramsInAStringTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindTargetIndicesAfterSortingArrayTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.michalgosek.algorithms.treetrversals.Solution" />
       <module name="AlgoRun" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="problems.*" />
+          <option name="PATTERN" value="com.michalgosek.algorithms.treetrversals.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="problems" />
-      <option name="MAIN_CLASS_NAME" value="problems.FindTargetIndicesAfterSortingArrayTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NewspapersTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TimeMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.michalgosek.algorithms.treetrversals.TimeMap" />
       <module name="AlgoRun" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithms.binaryserach.problems.*" />
+          <option name="PATTERN" value="com.michalgosek.algorithms.treetrversals.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="algorithms.binaryserach.problems" />
-      <option name="MAIN_CLASS_NAME" value="algorithms.binaryserach.problems.NewspapersTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MergeSortTest.shouldSortNumbersInAscendingOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AlgoRun" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algorithms.sorting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="algorithms.sorting" />
+      <option name="MAIN_CLASS_NAME" value="algorithms.sorting.MergeSortTest" />
+      <option name="METHOD_NAME" value="shouldSortNumbersInAscendingOrder(java.util.List,java.util.List)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QuickSortTest.shouldSortNumbersInAscendingOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AlgoRun" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algorithms.sorting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="algorithms.sorting" />
+      <option name="MAIN_CLASS_NAME" value="algorithms.sorting.QuickSortTest" />
+      <option name="METHOD_NAME" value="shouldSortNumbersInAscendingOrder(java.util.List,java.util.List)" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.All in AlgoRun (1)" />
-        <item itemvalue="JUnit.All in AlgoRun" />
-        <item itemvalue="JUnit.FindTargetIndicesAfterSortingArrayTest" />
-        <item itemvalue="JUnit.FindAllAnagramsInAStringTest" />
-        <item itemvalue="JUnit.NewspapersTest" />
+        <item itemvalue="Application.TimeMap" />
+        <item itemvalue="Application.Solution" />
+        <item itemvalue="Application.SandBox" />
+        <item itemvalue="JUnit.QuickSortTest.shouldSortNumbersInAscendingOrder" />
+        <item itemvalue="JUnit.MergeSortTest.shouldSortNumbersInAscendingOrder" />
       </list>
     </recent_temporary>
   </component>
@@ -174,7 +189,38 @@
       <workItem from="1711400135852" duration="2654000" />
       <workItem from="1711606383455" duration="3082000" />
       <workItem from="1712070683568" duration="2387000" />
-      <workItem from="1712086205947" duration="1107000" />
+      <workItem from="1712086205947" duration="1317000" />
+      <workItem from="1712163656302" duration="1745000" />
+      <workItem from="1712411668861" duration="962000" />
+      <workItem from="1712605520527" duration="3443000" />
+      <workItem from="1712689121828" duration="1728000" />
+      <workItem from="1712780156405" duration="1575000" />
+      <workItem from="1712859651702" duration="347000" />
+      <workItem from="1713026631273" duration="3033000" />
+      <workItem from="1713082204288" duration="13000" />
+      <workItem from="1713082333672" duration="67000" />
+      <workItem from="1713109114361" duration="2219000" />
+      <workItem from="1713209999835" duration="2739000" />
+      <workItem from="1713286837649" duration="4312000" />
+      <workItem from="1713367836161" duration="3041000" />
+      <workItem from="1713383411235" duration="957000" />
+      <workItem from="1713426278257" duration="5540000" />
+      <workItem from="1713630743362" duration="372000" />
+      <workItem from="1713800373581" duration="1859000" />
+      <workItem from="1713814323931" duration="1376000" />
+      <workItem from="1713889384134" duration="2845000" />
+      <workItem from="1713896435265" duration="1657000" />
+      <workItem from="1714321878823" duration="3115000" />
+      <workItem from="1714668647855" duration="1821000" />
+      <workItem from="1714745846285" duration="2788000" />
+      <workItem from="1714891102765" duration="822000" />
+      <workItem from="1714931141211" duration="213000" />
+      <workItem from="1715010234539" duration="1850000" />
+      <workItem from="1715102719770" duration="1566000" />
+      <workItem from="1715145692217" duration="6456000" />
+      <workItem from="1715270903123" duration="1901000" />
+      <workItem from="1715430431086" duration="277000" />
+      <workItem from="1715502848153" duration="2353000" />
     </task>
     <task id="LOCAL-00001" summary="Added examples with linked list cycle detection, added test helpers class.">
       <option name="closed" value="true" />
@@ -288,7 +334,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712073258023</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Added solution for leetcode problem.">
+      <option name="closed" value="true" />
+      <created>1712087455787</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1712087455787</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -321,7 +375,8 @@
     <MESSAGE value="Added time, space complexity." />
     <MESSAGE value="Removed empty file." />
     <MESSAGE value="Added solution for leetcode problems." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added solution for leetcode problems." />
+    <MESSAGE value="Added solution for leetcode problem." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added solution for leetcode problem." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
