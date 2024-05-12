@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0b273fd8-f972-4500-aaf4-3f499640bf68" name="Changes" comment="Added solution for leetcode problem.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/michalgosek/problems/InOrderTraversal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/michalgosek/algorithms/sorting/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/michalgosek/algorithms/sorting/MergeSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/algorithms/sorting/SortingTestDataSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/algorithms/sorting/SortingTestDataSource.java" afterDir="false" />
-    </list>
+    <list default="true" id="0b273fd8-f972-4500-aaf4-3f499640bf68" name="Changes" comment="Added solution for the problem 94. Binary Tree Inorder Traversal." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -220,7 +215,7 @@
       <workItem from="1715145692217" duration="6456000" />
       <workItem from="1715270903123" duration="1901000" />
       <workItem from="1715430431086" duration="277000" />
-      <workItem from="1715502848153" duration="2353000" />
+      <workItem from="1715502848153" duration="2528000" />
     </task>
     <task id="LOCAL-00001" summary="Added examples with linked list cycle detection, added test helpers class.">
       <option name="closed" value="true" />
@@ -342,7 +337,23 @@
       <option name="project" value="LOCAL" />
       <updated>1712087455787</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Added two element array for sorting test data.">
+      <option name="closed" value="true" />
+      <created>1715516189905</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1715516189905</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Added solution for the problem 94. Binary Tree Inorder Traversal.">
+      <option name="closed" value="true" />
+      <created>1715516242401</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1715516242401</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -376,7 +387,9 @@
     <MESSAGE value="Removed empty file." />
     <MESSAGE value="Added solution for leetcode problems." />
     <MESSAGE value="Added solution for leetcode problem." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added solution for leetcode problem." />
+    <MESSAGE value="Added two element array for sorting test data." />
+    <MESSAGE value="Added solution for the problem 94. Binary Tree Inorder Traversal." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added solution for the problem 94. Binary Tree Inorder Traversal." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
