@@ -1,8 +1,6 @@
 package com.michalgosek.problems;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Stack;
+import java.util.*;
 
 /*
 94. Binary Tree Inorder Traversal

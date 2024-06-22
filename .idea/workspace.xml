@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0b273fd8-f972-4500-aaf4-3f499640bf68" name="Changes" comment="Added solution for the problem 94. Binary Tree Inorder Traversal." />
+    <list default="true" id="0b273fd8-f972-4500-aaf4-3f499640bf68" name="Changes" comment="Added solution for the problem 94. Binary Tree Inorder Traversal.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/michalgosek/problems/InOrderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/michalgosek/problems/InOrderTraversal.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -61,7 +64,20 @@
       <recent name="algorithms.twopointers" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TimeMap">
+  <component name="RunManager" selected="Application.InOrderTraversal">
+    <configuration name="InOrderTraversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.michalgosek.problems.InOrderTraversal" />
+      <module name="AlgoRun" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.michalgosek.problems.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SandBox" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.michalgosek.algorithms.treetrversals.SandBox" />
       <module name="AlgoRun" />
@@ -101,22 +117,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeSortTest.shouldSortNumbersInAscendingOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="AlgoRun" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="algorithms.sorting.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="algorithms.sorting" />
-      <option name="MAIN_CLASS_NAME" value="algorithms.sorting.MergeSortTest" />
-      <option name="METHOD_NAME" value="shouldSortNumbersInAscendingOrder(java.util.List,java.util.List)" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="QuickSortTest.shouldSortNumbersInAscendingOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AlgoRun" />
       <extension name="coverage">
@@ -135,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.InOrderTraversal" />
         <item itemvalue="Application.TimeMap" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.SandBox" />
         <item itemvalue="JUnit.QuickSortTest.shouldSortNumbersInAscendingOrder" />
-        <item itemvalue="JUnit.MergeSortTest.shouldSortNumbersInAscendingOrder" />
       </list>
     </recent_temporary>
   </component>
@@ -215,7 +215,14 @@
       <workItem from="1715145692217" duration="6456000" />
       <workItem from="1715270903123" duration="1901000" />
       <workItem from="1715430431086" duration="277000" />
-      <workItem from="1715502848153" duration="2528000" />
+      <workItem from="1715502848153" duration="6923000" />
+      <workItem from="1715581020352" duration="655000" />
+      <workItem from="1715689602327" duration="1684000" />
+      <workItem from="1715712046295" duration="1429000" />
+      <workItem from="1715755524330" duration="3348000" />
+      <workItem from="1715838765094" duration="2414000" />
+      <workItem from="1715929806252" duration="1052000" />
+      <workItem from="1716028789122" duration="5156000" />
     </task>
     <task id="LOCAL-00001" summary="Added examples with linked list cycle detection, added test helpers class.">
       <option name="closed" value="true" />
@@ -353,7 +360,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715516242401</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Added solution for the problem 94. Binary Tree Inorder Traversal.">
+      <option name="closed" value="true" />
+      <created>1715516311265</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1715516311265</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
