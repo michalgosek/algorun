@@ -4,7 +4,7 @@ import java.util.List;
 
 public class QuickSort {
     public static void Sort(List<Integer> numbers) {
-        sort(numbers, 0, numbers.size());
+        quickSort(numbers, 0, numbers.size() - 1);
     }
 
     /**
@@ -12,35 +12,28 @@ public class QuickSort {
      * Space complexity: O(n)<br><br>
      * The algorithm is not stable.
      */
-    private static void sort(List<Integer> numbers, int start, int end) {
-        if (end - start <= 1) return;
-
-        var pivot = numbers.get(end - 1);
-        var startPtr = start;
-        var endPtr = end - 1;
-
-        while (startPtr < endPtr) {
-            while (numbers.get(startPtr) < pivot && startPtr < endPtr)
-                startPtr++;
-
-            while (numbers.get(endPtr) >= pivot && startPtr < endPtr)
-                endPtr--;
-
-            if (startPtr != endPtr)
-                swap(numbers, startPtr, endPtr, numbers.get(startPtr));
+    private static void quickSort(List<Integer> numbers, int lo, int hi) {
+        if (lo < hi) {
+            var pi = partition(numbers, lo, hi);
+            quickSort(numbers, lo, pi - 1);
+            quickSort(numbers, pi + 1, hi);
         }
-
-        // swap pivot in the correct position
-        swap(numbers, startPtr, end - 1, numbers.get(startPtr));
-
-        // left interval before pivot
-        sort(numbers, start, startPtr);
-        // right interval after pivot
-        sort(numbers, startPtr + 1, end);
     }
 
-    private static void swap(List<Integer> numbers, int startPtr, int endPtr, Integer temp) {
-        numbers.set(startPtr, numbers.get(endPtr));
-        numbers.set(endPtr, temp);
+    private static int partition(List<Integer> numbers, int low, int hi) {
+        var pivot = numbers.get(hi);
+        var pIdx = low - 1;
+        for (var idx = low; idx < hi; idx++) {
+            if (numbers.get(idx) <= pivot) {
+                pIdx++;
+                var tmp = numbers.get(idx);
+                numbers.set(idx, numbers.get(pIdx));
+                numbers.set(pIdx, tmp);
+            }
+        }
+        var tmp = numbers.get(pIdx + 1);
+        numbers.set(pIdx + 1, numbers.get(hi));
+        numbers.set(hi, tmp);
+        return pIdx + 1;
     }
 }

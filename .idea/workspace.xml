@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0b273fd8-f972-4500-aaf4-3f499640bf68" name="Changes" comment="Added solution for the problems: 94. Binary Tree Inorder Traversal. 235. Lowest Common Ancestor of a Binary Search Tree. 236. Lowest Common Ancestor of a Binary Tree.">
+    <list default="true" id="0b273fd8-f972-4500-aaf4-3f499640bf68" name="Changes" comment="Improved implementation for MergeSort.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/michalgosek/algorithms/sorting/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/michalgosek/algorithms/sorting/MergeSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/michalgosek/algorithms/sorting/SelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/michalgosek/algorithms/sorting/SelectionSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/algorithms/sorting/MergeSortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/algorithms/sorting/MergeSortTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/michalgosek/algorithms/sorting/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/michalgosek/algorithms/sorting/QuickSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +64,7 @@
       <recent name="algorithms.twopointers" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MergeSortTest.shouldSortNumbersInAscendingOrder">
+  <component name="RunManager" selected="JUnit.QuickSortTest.shouldSortNumbersInAscendingOrder">
     <configuration name="BubbleSortTest.shouldSortNumbersInAscendingOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AlgoRun" />
       <extension name="coverage">
@@ -79,21 +77,6 @@
       <option name="MAIN_CLASS_NAME" value="algorithms.sorting.BubbleSortTest" />
       <option name="METHOD_NAME" value="shouldSortNumbersInAscendingOrder(java.util.List,java.util.List)" />
       <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="InsertionSortTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="AlgoRun" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="algorithms.sorting.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="algorithms.sorting" />
-      <option name="MAIN_CLASS_NAME" value="algorithms.sorting.InsertionSortTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -129,7 +112,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SelectionSortTest.shouldSortNumbersInAscendingOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="QuickSortTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AlgoRun" />
       <extension name="coverage">
         <pattern>
@@ -138,7 +121,22 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="algorithms.sorting" />
-      <option name="MAIN_CLASS_NAME" value="algorithms.sorting.SelectionSortTest" />
+      <option name="MAIN_CLASS_NAME" value="algorithms.sorting.QuickSortTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QuickSortTest.shouldSortNumbersInAscendingOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AlgoRun" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algorithms.sorting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="algorithms.sorting" />
+      <option name="MAIN_CLASS_NAME" value="algorithms.sorting.QuickSortTest" />
       <option name="METHOD_NAME" value="shouldSortNumbersInAscendingOrder(java.util.List,java.util.List)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -147,11 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.QuickSortTest.shouldSortNumbersInAscendingOrder" />
+        <item itemvalue="JUnit.QuickSortTest" />
         <item itemvalue="JUnit.MergeSortTest.shouldSortNumbersInAscendingOrder" />
         <item itemvalue="JUnit.MergeSortTest" />
         <item itemvalue="JUnit.BubbleSortTest.shouldSortNumbersInAscendingOrder" />
-        <item itemvalue="JUnit.SelectionSortTest.shouldSortNumbersInAscendingOrder" />
-        <item itemvalue="JUnit.InsertionSortTest" />
       </list>
     </recent_temporary>
   </component>
@@ -236,7 +234,7 @@
       <workItem from="1715929806252" duration="1052000" />
       <workItem from="1716028789122" duration="5156000" />
       <workItem from="1722351907052" duration="26000" />
-      <workItem from="1722351935251" duration="4478000" />
+      <workItem from="1722351935251" duration="6075000" />
     </task>
     <task id="LOCAL-00001" summary="Added examples with linked list cycle detection, added test helpers class.">
       <option name="closed" value="true" />
@@ -390,7 +388,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722352267314</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Improved implementation for MergeSort.">
+      <option name="closed" value="true" />
+      <created>1722358228231</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1722358228231</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -427,7 +433,8 @@
     <MESSAGE value="Added two element array for sorting test data." />
     <MESSAGE value="Added solution for the problem 94. Binary Tree Inorder Traversal." />
     <MESSAGE value="Added solution for the problems: 94. Binary Tree Inorder Traversal. 235. Lowest Common Ancestor of a Binary Search Tree. 236. Lowest Common Ancestor of a Binary Tree." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added solution for the problems: 94. Binary Tree Inorder Traversal. 235. Lowest Common Ancestor of a Binary Search Tree. 236. Lowest Common Ancestor of a Binary Tree." />
+    <MESSAGE value="Improved implementation for MergeSort." />
+    <option name="LAST_COMMIT_MESSAGE" value="Improved implementation for MergeSort." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -436,11 +443,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/michalgosek/Main.java</url>
           <line>15</line>
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/algorithms/sorting/MergeSortTest.java</url>
-          <line>21</line>
-          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
