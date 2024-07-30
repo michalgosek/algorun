@@ -1,4 +1,4 @@
-package com.michalgosek.problems;
+package com.michalgosek.problems.trees;
 
 /*
 235. Lowest Common Ancestor of a Binary Search Tree

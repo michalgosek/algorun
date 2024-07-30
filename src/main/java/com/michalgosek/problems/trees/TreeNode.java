@@ -1,4 +1,4 @@
-package com.michalgosek.problems;
+package com.michalgosek.problems.trees;
 
 public class TreeNode {
     int val;
