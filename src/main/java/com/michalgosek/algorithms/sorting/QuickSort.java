@@ -12,11 +12,11 @@ public class QuickSort {
      * Space complexity: O(n)<br><br>
      * The algorithm is not stable.
      */
-    private static void quickSort(List<Integer> numbers, int lo, int hi) {
-        if (lo < hi) {
-            var pi = partition(numbers, lo, hi);
-            quickSort(numbers, lo, pi - 1);
-            quickSort(numbers, pi + 1, hi);
+    private static void quickSort(List<Integer> numbers, int low, int hi) {
+        if (low < hi) {
+            var pIdx = partition(numbers, low, hi);
+            quickSort(numbers, low, pIdx - 1);
+            quickSort(numbers, pIdx + 1, hi);
         }
     }
 
@@ -25,15 +25,16 @@ public class QuickSort {
         var pIdx = low - 1;
         for (var idx = low; idx < hi; idx++) {
             if (numbers.get(idx) <= pivot) {
-                pIdx++;
-                var tmp = numbers.get(idx);
-                numbers.set(idx, numbers.get(pIdx));
-                numbers.set(pIdx, tmp);
+                swap(numbers, idx, ++pIdx, numbers.get(idx));
             }
         }
-        var tmp = numbers.get(pIdx + 1);
-        numbers.set(pIdx + 1, numbers.get(hi));
-        numbers.set(hi, tmp);
+
+        swap(numbers, pIdx + 1, hi, numbers.get(pIdx + 1));
         return pIdx + 1;
+    }
+
+    private static void swap(List<Integer> numbers, int pIdx, int hi, Integer tmp) {
+        numbers.set(pIdx, numbers.get(hi));
+        numbers.set(hi, tmp);
     }
 }
