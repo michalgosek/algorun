@@ -4,39 +4,54 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class MergeSort {
-
     /**
      * Time complexity: O(nlog(n))<br>
      * Space complexity: O(n)<br><br>
      * The algorithm is stable.
      */
-    public static List<Integer> Sort(List<Integer> numbers) {
-        return numbersInterval(numbers, 0, numbers.size());
+    public static void Sort(List<Integer> numbers) {
+        sort(numbers, 0, numbers.size() - 1);
     }
 
-    private static List<Integer> numbersInterval(List<Integer> numbers, int start, int end) {
-        if (end - start <= 1) {
-            return numbers.subList(start, end);
+    private static void merge(List<Integer> numbers, int left, int mid, int right) {
+        var leftArraySize = mid - left + 1;
+        var leftArray = new ArrayList<Integer>();
+        for (var i = 0; i < leftArraySize; i++) {
+            leftArray.add(numbers.get(left + i));
         }
 
-        var mid = (start + end) / 2;
-        var leftInterval = numbersInterval(numbers, start, mid);
-        var rightInterval = numbersInterval(numbers, mid, end);
+        var rightArraySize = right - mid;
+        var rightArray = new ArrayList<Integer>();
+        for (var i = 0; i < rightArraySize; i++) {
+            rightArray.add(numbers.get(mid + 1 + i));
+        }
 
-        var result = new ArrayList<Integer>();
-        var left = 0;
-        var right = 0;
-        while (left < leftInterval.size() || right < rightInterval.size()) {
-            if (left == leftInterval.size()) {
-                result.add(rightInterval.get(right++));
-            } else if (right == rightInterval.size()) {
-                result.add(leftInterval.get(left++));
-            } else if (leftInterval.get(left) < rightInterval.get(right)) {
-                result.add(leftInterval.get(left++));
+        var leftIdx = 0;
+        var rightIdx = 0;
+        int idx = left;
+        while (leftIdx < leftArraySize && rightIdx < rightArraySize) {
+            if (leftArray.get(leftIdx) <= rightArray.get(rightIdx)) {
+                numbers.set(idx++, leftArray.get(leftIdx++));
             } else {
-                result.add(rightInterval.get(right++));
+                numbers.set(idx++, rightArray.get(rightIdx++));
             }
         }
-        return result;
+
+        while (leftIdx < leftArraySize) {
+            numbers.set(idx++, leftArray.get(leftIdx++));
+        }
+
+        while (rightIdx < rightArraySize) {
+            numbers.set(idx++, rightArray.get(rightIdx++));
+        }
+    }
+
+    private static void sort(List<Integer> numbers, int left, int right) {
+        if (left < right) {
+            var mid = (left + right) / 2;
+            sort(numbers, left, mid);
+            sort(numbers, mid + 1, right);
+            merge(numbers, left, mid, right);
+        }
     }
 }

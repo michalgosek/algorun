@@ -13,9 +13,9 @@ public class MergeSortTest {
     @MethodSource("algorithms.sorting.SortingTestDataSource#DataSet")
     public void shouldSortNumbersInAscendingOrder(List<Integer> unsorted, List<Integer> expectedNumbers) {
         // act:
-        var actual = MergeSort.Sort(unsorted);
+        MergeSort.Sort(unsorted);
 
         // assert:
-        assertEquals(expectedNumbers, actual);
+        assertEquals(unsorted, expectedNumbers);
     }
 }
